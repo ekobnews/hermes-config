@@ -53,3 +53,8 @@ platforms/pairing/
 state/
 shared/
 images/
+
+# Obsidian vault cache
+notes/.obsidian/workspace.json
+notes/.obsidian/workspace-mobile.json
+notes/.obsidian/cache/
