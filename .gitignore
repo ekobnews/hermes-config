@@ -1,0 +1,55 @@
+# Secrets & credentials
+.env
+auth.json
+channel_directory.json
+gateway_state.json
+*.lock
+
+# Databases
+*.db
+*.db-shm
+*.db-wal
+kanban.db*
+projects.db
+state.db*
+
+# Caches
+cache/
+image_cache/
+audio_cache/
+models_dev_cache.json
+models_dev_cache.etag
+ollama_cloud_models_cache.json
+provider_models_cache.json
+.skills_prompt_snapshot.json
+.curator_backups/
+
+# Logs & sessions
+logs/
+sessions/
+pending_messages/
+terminal-sessions/
+
+# Backups
+*.bak
+*.bak.*
+config.yaml.save
+config.yaml.save.*
+
+# Runtime
+node/
+bin/
+tui-theme-boot.json
+.clean_shutdown
+.update_check
+.hermes_history
+context_length_cache.yaml
+sandboxes/
+kanban/
+desktop/
+hooks/
+pairing/
+platforms/pairing/
+state/
+shared/
+images/
