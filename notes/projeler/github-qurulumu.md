@@ -16,3 +16,8 @@
 ## Notlar
 - VPS-ə SSH açarı hələ əlavə edilməyib
 - Railway-də EKOB NEWS bot kodu var, GitHub-da da kodu saxlayırıq
+
+## Bağlantılar
+
+- [[Ana Səhifə]]
+- [[gundelik/06-09-2026|6 Sentyabr 2026]]

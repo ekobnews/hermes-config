@@ -7,11 +7,16 @@ Bu qovluq Obsidian vault-dur. Hermes Agent tərəfindən idarə olunur.
 
 ## Qovluqlar
 
-- `gundelik/` — gündəlik qeydlər
-- `projeler/` — EKOB NEWS, Hermes və s.
+- [[gundelik/06-09-2026|Gündəlik]] — gündəlik qeydlər
+- [[projeler/github-qurulumu|GitHub qurulumu]] — texniki layihələr
 - `notlar/` — ümumi notlar
 - `qeydler/` — texniki qeydlər
 
 ## GitHub
 
 Hermes konfiqurasiyası: github.com/ekobnews/hermes-config
+
+## Bağlantılar
+
+- [[gundelik/06-09-2026|6 Sentyabr 2026 — gündəlik qeydi]]
+- [[projeler/github-qurulumu|GitHub qurulum qeydi]]
