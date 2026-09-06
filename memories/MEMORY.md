@@ -11,3 +11,5 @@ Two GitHub repos under ekobnews: github.com/ekobnews/hermes-config (config + not
 Obsidian vault: /mnt/c/Users/ELBRUS/Documents/hermes-notes (Windows mount, accessible from both WSL and Windows). Has gundelik/, projeler/, notlar/, qeydler/ subdirs. Synced to GitHub via hermes-config repo notes/ folder. Sync script at hermes-config/scripts/sync-notes.sh.
 §
 VPS Hermes (95.217.157.137): Telegram gateway 24/7, runs root. Also hosts WhatsApp EANA agent. WhatsApp: Elbrus/Abu +994****1301, Nailə/Nayka +994****2280, Alidə/Anka (alide.haciyeva), Ayan (bagirovaayan). Nayka tətili 14 Sep 2026. Tərz: səmimi, təbii, 'canım/əmrinizi gözləyirəm' yox. Səs: az-AZ-BabekNeural. WSL gateway dayandırılıb. WSL SSH key VPS-ə əlavə edildi. EKOB NEWS bot Railway-də, VPS-də kripto botları var.
+§
+Memory sync active (6 Sep 2026): WSL pushes local→VPS then pulls VPS→local every 2m via cron (memory-sync-wsl). Script: /home/elbrus/.hermes/scripts/sync-memory.sh. Hər iki tərəf eyni memory-ə sahib olur.
