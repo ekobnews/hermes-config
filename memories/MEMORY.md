@@ -12,4 +12,4 @@ Obsidian vault: /mnt/c/Users/ELBRUS/Documents/hermes-notes (Windows mount, acces
 §
 VPS Hermes (95.217.157.137): Telegram gateway 24/7, runs root. Also hosts WhatsApp EANA agent. WhatsApp: Elbrus/Abu +994****1301, Nailə/Nayka +994****2280, Alidə/Anka (alide.haciyeva), Ayan (bagirovaayan). Nayka tətili 14 Sep 2026. Tərz: səmimi, təbii, 'canım/əmrinizi gözləyirəm' yox. Səs: az-AZ-BabekNeural. WSL gateway dayandırılıb. WSL SSH key VPS-ə əlavə edildi. EKOB NEWS bot Railway-də, VPS-də kripto botları var.
 §
-Memory sync active (6 Sep 2026): WSL pushes local→VPS then pulls VPS→local every 2m via cron (memory-sync-wsl). Script: /home/elbrus/.hermes/scripts/sync-memory.sh. Hər iki tərəf eyni memory-ə sahib olur.
+Full session sync active (6 Sep 2026): sqlite3 backup+merge bidirectional between WSL↔VPS every 5min (system crontab). Scripts: ~/.hermes/scripts/sync-sessions.sh, sync-sessions.py, backup-db.py. Memory sync: ~/.hermes/scripts/sync-memory.sh every 2min. Hər iki tərəf eyni sessions+memory görür.
