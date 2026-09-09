@@ -2,10 +2,6 @@ Lokal (WSL) hermes-gateway dayandırıldı və disable edildi — VPS-dəki gate
 §
 User prefers problems fixed in one shot rather than iterative trial-and-error. When debugging, exhaust root-cause analysis before attempting fixes.
 §
-When onboarding Elbrus to developer tools (GitHub, git, etc.), give complete step-by-step numbered instructions. He may have an existing account under his email already — ask/verify before suggesting new signup. Explain the "one email = one account" limitation upfront when relevant.
-§
-Needs numbered step-by-step instructions for browser-based technical tasks (Hetzner, GitHub UI). Password input: clarify when text won't be visible on screen. Prefers PowerShell over Hetzner browser console for SSH tasks. Frustrated by multi-round debugging — wants problems fixed in one shot.
-§
 Two GitHub repos under ekobnews: github.com/ekobnews/hermes-config (config + notes) and github.com/ekobnews/ekob-news-bot (bot code). Both pushed successfully Sep 5-6 2026.
 §
 Obsidian vault: /mnt/c/Users/ELBRUS/Documents/hermes-notes (Windows). Subdirs: gundelik/, projeler/, notlar/, qeydler/. Synced to GitHub via hermes-config repo notes/. VPS-ə də klonlanıb /root/hermes-config/notes/ — auto-pull hər 10 dəq. Sync script: hermes-config/scripts/sync-notes.sh.
