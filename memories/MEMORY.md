@@ -10,6 +10,4 @@ EANA WhatsApp bot: VPS 95.217.157.137, PM2 whatsapp-agent, gpt-4o-mini temp 0.3,
 §
 Full session sync active (6 Sep 2026): sqlite3 backup+merge bidirectional between WSL↔VPS every 5min (system crontab). Scripts: ~/.hermes/scripts/sync-sessions.sh, sync-sessions.py, backup-db.py. Memory sync: ~/.hermes/scripts/sync-memory.sh every 2min. Hər iki tərəf eyni sessions+memory görür.
 §
-EANA WhatsApp bot (VPS 95.217.157.137) — gpt-4o-mini rəsmi/formal danışır, Gemini 2.0 Flash daha səmimidi. User Gemini-ə qayıtmaq istəyir. Yeni Google API key lazımdır (ai.google.dev/apikey pulsuz tier).
-§
-agent.js artıq /root/whatsapp_agent/agent.js VPS 95.217.157.137-də. Yeni versiya: memory.js sistemi (fact extraction), YouTube oembed, video frame extraction, tarix injection, max_tokens=256, temperature=0.4.
+EANA WhatsApp bot (VPS 95.217.157.137, PM2 whatsapp-agent): model = Gemini 2.5 Flash (pulsuz Google AI Studio key, OPENAI_API_KEY qaldırıldı). Yaddaş: memory.js + memory_store.json (200 fakt, ---FACT marker). Link: YouTube oembed + OG meta. Video: ffmpeg frame extraction. maxOutputTokens=1024/512. Tərz: təbii, məhdudiyyətsiz, ailə chatında dost kimi.

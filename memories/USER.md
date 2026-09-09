@@ -4,7 +4,7 @@ Hetzner VPS (77.42.37.230, CX23, 4GB, Ubuntu 26.04): runs Hermes Agent with Tele
 §
 EKOB NEWS bot: monitors Telegram + RSS, uses Claude to rewrite news in Azerbaijani, publishes via Telethon (TG) + Buffer API (FB/IG).
 §
-VPS (77.42.37.230, CX23, 4GB, Ubuntu 26.04): runs Hermes Agent (Telegram gateway 24/7 systemd) + EANA WhatsApp bot. OpenAI API key for gpt-4o-mini. Gemini API key depleted (prepaid). Possible free Gemini 2.0 Flash switch via Google AI Studio.
+VPS (77.42.37.230, CX23, 4GB, Ubuntu 26.04): runs Hermes Agent (Telegram gateway 24/7 systemd) + EANA WhatsApp bot. Google Gemini 2.5 Flash API key aktiv (AI Studio pulsuz). WhatsApp bot Gemini 2.5 Flash ilə işləyir.
 §
 Obsidian notes cloned on VPS at /root/hermes-config/notes/ — auto-pull hər 10 dəqiqə. VPS Hermes ora baxa bilər.
 §
