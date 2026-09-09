@@ -4,8 +4,8 @@ Hetzner VPS (77.42.37.230, CX23, 4GB, Ubuntu 26.04): runs Hermes Agent with Tele
 §
 EKOB NEWS bot: monitors Telegram + RSS, uses Claude to rewrite news in Azerbaijani, publishes via Telethon (TG) + Buffer API (FB/IG).
 §
-VPS (77.42.37.230): Hermes gateway uses OpenAI API key (OPENAI_API_KEY in .env). Local WSL gateway stopped+disabled to prevent Telegram polling conflict. Primary model: gpt-4o-mini via custom provider (openai_chat transport, https://api.openai.com/v1). Gemini API key depleted (prepaid credits ran out).
-§
-EKOB NEWS bot runs on Railway (not VPS). VPS (77.42.37.230) runs Hermes Agent only.
+VPS (77.42.37.230, CX23, 4GB, Ubuntu 26.04): runs Hermes Agent (Telegram gateway 24/7 systemd) + EANA WhatsApp bot. OpenAI API key for gpt-4o-mini. Gemini API key depleted (prepaid). Possible free Gemini 2.0 Flash switch via Google AI Studio.
 §
 Obsidian notes cloned on VPS at /root/hermes-config/notes/ — auto-pull hər 10 dəqiqə. VPS Hermes ora baxa bilər.
+§
+User wants the EANA WhatsApp bot to speak in completely natural, human-like Azerbaijani — no robotic/formal tone, no unnecessary questions at end of replies. Prefers Gemini over gpt-4o-mini for natural tone.
