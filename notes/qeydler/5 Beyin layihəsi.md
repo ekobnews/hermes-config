@@ -6,7 +6,7 @@
 
 ## Status
 
-Bot yenidən işə salındı və işləyir. 8 təkmilləşdirmə tətbiq olunub.
+Bot yenidən işə salındı və işləyir. 8 təkmilləşdirmə tətbiq olunub (fallback sonradan ləğv edildi — hər AI yalnız öz modeli ilə cavab verir).
 
 ## Hermes (meta-orchestrator)
 
