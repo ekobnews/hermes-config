@@ -5,3 +5,5 @@ WSL hermes-gateway disabled — VPS gateway tək polling edir. Session+memory sy
 WhatsApp Bot (VPS 95.217.157.137, PM2 whatsapp-agent): Çox-qruplu sistem. 1) EANA: Hermes persona (Abu, Anka, Nayka, Ayan). 2) Bizim sinif: Həsən müəllim persona (1985-1995 məzunları, 'Bir salxım üzüm' kitabı, İlahə 'Allahın bacısı qızı', Almaz/Elbrus sinifkomlar, mərhum müəllimlər: Mehparə, Bəyaz, Sevil). 2.5-4s typing delay. Audio/video/şəkil/link hər iki qrupda aktiv.
 §
 agent.js deploy: Node.js regex'lərə diqqət (escape korlanması), syntax yoxla node -c ilə. Səsli mesaj transkripsiya + media analizi aktivdir.
+§
+OpenRouter hər iki maşında (WSL və VPS 77.42.37.230) yenidən qurulub, işləyir. Model: deepseek/deepseek-v4-flash via openrouter.
