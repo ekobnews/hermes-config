@@ -11,3 +11,5 @@ WhatsApp botları (VPS PM2 whatsapp-agent): EANA (Hermes persona, 4 ailə üzvü
 5 Beyin Telegram botu (VPS Docker): 4 AI (Çati-GPT4o, Gemi-Gemini2.5flash, Depi-DeepSeek, Klodi-Claude). Meta-orchestrator rolu bəndə. 8 təkmilləşdirmə: xərc, fallback, auto-memory, @mention, search, kontekst, auth, əmrlər. /root/5beyin-bot/. .env gözləyir.
 §
 OpenRouter WSL+VPS hər ikisində işləyir. Model: deepseek/deepseek-v4-flash.
+§
+5 Beyin fallback: AI modeli uğursuz olanda başqa modelə keçmir — sadəcə xəta mesajı göstərir. Hər AI yalnız öz modeli ilə cavab verir. (Səhvən fallback əlavə etmişdim, düzəltdim.)
