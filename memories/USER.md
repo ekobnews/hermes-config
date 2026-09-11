@@ -1,4 +1,4 @@
-Elbrus Bağırov (Abu, 15.05.1979, DSMF Pensiya təyinatı şöbə müdiri). Runs EKOB NEWS. Family: Anka (Alidə, 19.07.1981), Nayka (Nailə, 05.11.2002), Ayan (31.12.2006). GitHub: ekobnews. Obsidian vault: C:\Users\ELBRUS\Documents\hermes-notes. Prefers Azerbaijani, direct no-filler responses.
+Elbrus Bağırov. Runs EKOB NEWS (Telegram/FB/IG). GitHub: ekobnews (ebuabu79@gmail.com). Obsidian vault: C:\Users\ELBRUS\Documents\hermes-notes. Prefers Azerbaijani, direct no-filler responses. Needs step-by-step numbered instructions for browser tasks. When browser fails, switch to terminal/PowerShell immediately. For GitHub repo via device flow, use Python urllib (not shell text manipulation) to avoid token truncation.
 §
 Hetzner VPS (77.42.37.230, CX23, 4GB, Ubuntu 26.04): runs Hermes Agent with Telegram gateway (24/7 systemd). EKOB NEWS bot runs on Railway, NOT on this VPS.
 §
