@@ -1,110 +1,91 @@
-# "5 Beyin" Layihəsi — Tam Xülasə
+# "5 Beyin" Layihəsi — Tam Xülasə (Yenilənmiş)
 
 **Yenilənmə tarixi:** 12.09.2026
+**Status:** Docker image ready, .env faylı gözləyir
 
 ## 1. Layihənin Məqsədi
 
-Telegram-da tək istifadəçi (Ebu) üçün 4 fərqli süni intellekt modelinin (ChatGPT, Gemini, DeepSeek, Claude) eyni qrup çatında sərbəst, təbii dost söhbəti formatında iştirak etdiyi bir sistem. Məqsəd — istifadəçinin istənilən mövzunu "5 dost" ilə (özü + 4 AI) müzakirə edə bilməsi, klassik bir AI-dən sual-cavab formatında deyil.
+Telegram-da tək istifadəçi (Ebu) üçün 4 fərqli süni intellekt modelinin (ChatGPT, Gemini, DeepSeek, Claude) eyni qrup çatında sərbəst, təbii dost söhbəti formatında iştirak etdiyi bir sistem.
 
 ## 2. Ümumi Memarlıq
 
-- **Platform:** Telegram bot (username: `@beshbeyin_bot`), qrup adı "5 Beyin"
+- **Platform:** Telegram bot (`@beshbeyin_bot`), qrup adı "5 Beyin"
 - **Backend:** Python (python-telegram-bot kitabxanası), tək fayl (`bot.py`)
 - **Hosting:** Hetzner VPS, Docker konteyner
 - **Qovluq:** `/root/5beyin-bot/`
-- **İzolyasiya:** Eyni serverdəki kripto trade botundan ayrı Docker konteyner, ayrı `.env`, ayrı qovluq
-- **Restart:** `--restart unless-stopped`
+- **İzolyasiya:** Ayrı Docker konteyner, ayrı `.env`
 
-### Fayllar
-- `bot.py` — əsas kod
-- `Dockerfile` — Docker build
-- `requirements.txt` — Python dependency-lər
-- `.env` — API açarları
-- `profile.txt` — istifadəçi profili (volume mount)
-- `memory.txt` — uzunmüddətli yaddaş (volume mount)
-- `reminders.txt` — xatırlatmalar (volume mount)
+## 4. Əlavə Olunan 8 Təkmilləşdirmə
 
-### API açarları (.env)
-- `TELEGRAM_BOT_TOKEN`, `OPENAI_API_KEY`, `GEMINI_API_KEY`, `DEEPSEEK_API_KEY`, `ANTHROPIC_API_KEY`
+### ✅ 1. Xərc Nəzarəti (Cost Tracking)
+- Hər API çağırışı üçün token sayı və dəyəri `cost_log.txt`-ə yazılır
+- `DAILY_COST_LIMIT` (default $2.00) dəyişəni ilə günlük limit tətbiq olunur
+- `/stats` əmri ilə cari xərc görünür
+- Gemini Free Tier olduğu üçün onun xərci 0 hesablanır
 
-## 3. AI-lərin Təmsili
+### ✅ 2. Səhv İdarəsi (Fallback Chain)
+- Hər AI çağırışı uğursuz olsa, digər modellərə keçid edilir
+- Fallback sırası: OpenAI → Anthropic → Google → DeepSeek
+- Hər addım loglanır, xərc qeyd olunur
+- Bütün modullar düşsə, "Bütün AI-lər müvəffəqiyyətsiz oldu" mesajı qayıdır
 
-| Görünən ad | Emoji | Əsl model | TTS səsi | Güclü tərəf |
-|---|---|---|---|---|
-| Çati | 🤖 | OpenAI GPT-4o | alloy | yaradıcı, fikir, hekayə |
-| Gemi | 🔷 | Google Gemini (gemini-2.5-flash) | nova | analiz, data, araşdırma |
-| Depi | 🐋 | DeepSeek (deepseek-chat) | echo | kod, texniki, riyaziyyat |
-| Klodi | 🟠 | Anthropic Claude (claude-sonnet-4-6) | shimmer | yazı, təhlil, fəlsəfə |
+### ✅ 3. Avtomatik Yaddaş (Auto-Memory Extraction)
+- Hər 5 istifadəçi mesajından sonra Gemini ilə avtomatik fakt çıxarılır
+- Çıxarılan faktlar `memory.txt`-ə əlavə olunur
+- Faktlar bütün gələcək söhbətlərdə sistem promptuna daxil edilir
 
-İstifadəçiyə müraciət: **Ebu**
+### ✅ 4. @Mention Dəstəyi (AI Seçiminə Nəzarət)
+- `@Çati`, `@Gemi`, `@Depi`, `@Klodi` yazmaqla həmin AI məcburi seçilir
+- Bir neçə AI-ni eyni anda çağırmaq olar (maksimum 3)
 
-## 4. Söhbət Məntiqi
+### ✅ 5. Axtarış (Search)
+- `/search <söz>` əmri ilə `memory.txt` və son 30 mesajda axtarış
+- Həm AI cavabları, həm də istifadəçi mesajları axtarılır
 
-1. İstifadəçi mesaj yazır
-2. Sistem keyword əsaslı + təsadüfi amillə 2-3 AI seçir
-3. AI-lər **ardıcıl** cavab verir — hər biri əvvəlkilərin cavabını görür
-4. Hər AI mesaj başına 1 dəfə cavab verir
-5. Son 10-15 mesaj kontekst saxlanılır
+### ✅ 6. Geniş Kontekst (50 mesaj)
+- Kontekst ölçüsü 15-dən 50-yə qaldırıldı
+- AI-lərə son 15 mesaj ötürülür (token limiti səbəbindən optimal)
 
-## 5. Modullar
+### ✅ 7. İcazə / Təhlükəsizlik (Auth Whitelist)
+- `ALLOWED_USER_IDS` dəyişəni ilə məhdudiyyət
+- Yalnız icazə verilən Telegram user ID-ləri botu istifadə edə bilər
 
-### Modul 1 — Şəxsi Profil
-- `profile.txt` faylında, Docker build zamanı konteynerə kopyalanır
-- Sistem promptuna avtomatik əlavə olunur
+### ✅ 8. Standart Əmrlər
+- `/start` — Giriş mesajı
+- `/help` — Kömək, bütün əmrlərin siyahısı
+- `/search <söz>` — Axtarış
+- `/stats` — Xərc statistikası
+- `/debate <mövzu>` — Debate rejimi
+- `xatırlat: GG.AA.İİİİ SS:DD mətn` — Xatırlatma
+- `yadda saxla: fakt` — Əl ilə yaddaş
 
-### Modul 2 — Uzunmüddətli Yaddaş
-- `memory.txt` faylında (volume mount ilə daimi)
-- Tetik: "yadda saxla:" ifadəsi
-- Fayla yazılır, təsdiq göndərilir, AI-lərə sorğu getmir
+## 5. Deploy üçün tələb olunan .env faylı
 
-### Modul 3 — Xatırlatma/Scheduler
-- `reminders.txt` faylında JSON formatında (volume mount ilə daimi)
-- Format: `xatırlat: GG.AA.İİİİ SS:DD mətn`
-- Fon prosesi hər 30 saniyədə yoxlayır
-- Vaxt zonası: Bakı vaxtı (UTC+4), server UTC-də
+```
+TELEGRAM_BOT_TOKEN=your_token_here
+ALLOWED_USER_IDS=123456789
+OPENAI_API_KEY=...
+GEMINI_API_KEY=...
+DEEPSEEK_API_KEY=...
+ANTHROPIC_API_KEY=...
+DAILY_COST_LIMIT=2.0
+```
 
-### Modul 4 — Şəkil/Sənəd Təhlili
-- **Şəkil:** Vision dəstəkləyən 2 təsadüfi AI (ChatGPT, Gemini, Claude arasından)
-- **PDF:** pypdf ilə mətn çıxarılır (ilk 10 səhifə, 6000 simvol), AI-lərə göndərilir
-- DeepSeek vision dəstəkləmir, PDF moduluna daxil deyil
-
-### Modul 5 — Səsli Mesaj Dəstəyi
-- **Giriş:** OpenAI Whisper API ilə mətnə çevrilir
-- **Çıxış:** "səsli cavab ver" ifadəsi olduqda TTS ilə səsli mesaj
-
-### Debate Rejimi
-- Tetik: "debat et: mövzu"
-- 4 AI iştirak edir, 2 lehinə + 2 əleyhinə (təsadüfi)
-- ✅ LEHİNƏ / ❌ ƏLEYHİNƏ etiketi
-- Tək mesajlıq keçid, sonra normal rejim
-
-## 6. Yarım Qalan / Test Edilən
-
-### Reaction Tanıma
-- `MessageReactionHandler` əlavə olunub
-- Reaction-lar `chat_histories`-ə yazılır
-- **Status:** tətbiq olunub, real test gözləyir
-
-## 7. Gələcək Planlar
-
-- Link/URL məzmunu oxuma
-- Real insanların qoşulması (çoxistifadəçi dəstəyi)
-- Video təhlili (yalnız Gemini dəstəkləyir)
-- REST API formatına keçid (Telegram-dan asılı olmayan)
-
-## 8. Deploy Əmrləri
+## 6. Deploy Əmrləri
 
 ```bash
-docker stop 5beyin-bot && docker rm 5beyin-bot
+docker stop 5beyin-bot 2>/dev/null; docker rm 5beyin-bot 2>/dev/null
 docker build -t 5beyin-bot .
 docker run -d --name 5beyin-bot --env-file .env \
-  -v /root/5beyin-bot/memory.txt:/app/memory.txt \
-  -v /root/5beyin-bot/reminders.txt:/app/reminders.txt \
+  -v /root/5beyin-bot/memory.txt:/app/data/memory.txt \
+  -v /root/5beyin-bot/reminders.txt:/app/data/reminders.txt \
+  -v /root/5beyin-bot/cost_log.txt:/app/data/cost_log.txt \
   --restart unless-stopped 5beyin-bot
 ```
 
-## 9. Status
+## 7. Hermes (Meta-Orchestrator) Rolu
 
-✅ Tamamlanan: profil, yaddaş, xatırlatma, şəkil/PDF analiz, səsli mesaj, debate
-🔄 Testdə: reaction tanıma
-❌ Hələ yox: link oxuma, çoxistifadəçi, video analiz, REST API
+- Hermes (mən) bu layihənin meta-orchestrator-uyam
+- Kod, konfiqurasiya və deploy idarəçiliyi məndədir
+- Həm WSL-dən, həm də VPS-dən istənilən dəyişiklik edilə bilər
+- Bütün qeydlər Obsidian vault və GitHub `hermes-config` reposunda saxlanılır
