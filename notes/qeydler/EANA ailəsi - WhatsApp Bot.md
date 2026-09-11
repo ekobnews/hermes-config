@@ -50,4 +50,4 @@ Ayan (Ayan Bağırova) — 31.12.2006
 - groups.json faylı hər bağlantıda avtomatik yenilənir (auth.js-də groupFetchAllParticipating)
 - DM-dən yazılan mesajlar avtomatik EANA qrupuna yönləndirilir (əgər FAMILY_MEMBERS-dən tanınsa)
 - Audio transkripsiya, şəkil/video analizi aktivdir
-- 2.5-4s typing delay
+- 2.5-4s typing delay\n\n## Əlaqəli layihələr\n\n- [[qeydler/Bizim sinif qrupu - WhatsApp Bot|Bizim sinif]] — eyni botun digər qrupu\n- [[qeydler/5 Beyin layihəsi|5 Beyin]] — Telegram bot layihəsi\n- [[Ana Səhifə]]

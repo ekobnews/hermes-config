@@ -77,4 +77,4 @@ Etiş    → "etiş", "etish", "etibar"
 - Qrup JID-si `120363298388199346@g.us` — groups.json faylından asılı deyil
 - Bot qrupa əlavə olunanda xüsusi "welcome/handler" yoxdur, sadəcə mesaj gələndə işə düşür
 - Audio transkripsiya, şəkil/video analizi aktivdir
-- 2.5-4s typing delay
+- 2.5-4s typing delay\n\n## Əlaqəli layihələr\n\n- [[qeydler/EANA ailəsi - WhatsApp Bot|EANA ailəsi]] — eyni botun digər qrupu\n- [[qeydler/5 Beyin layihəsi|5 Beyin]] — Telegram bot layihəsi\n- [[Ana Səhifə]]

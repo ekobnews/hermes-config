@@ -9,4 +9,4 @@ OpenRouter hər iki maşında yenidən qurulub və işləyir:
 
 - Provider: openrouter
 - Model: deepseek/deepseek-v4-flash
-- Tarix: 12 Sentyabr 2026
+- Tarix: 12 Sentyabr 2026\n\n## Əlaqəli layihələr\n\n- [[qeydler/5 Beyin layihəsi|5 Beyin]] — bot API çağırışları üçün OpenRouter istifadə edir\n- [[Ana Səhifə]]
