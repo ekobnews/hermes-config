@@ -13,3 +13,5 @@ WhatsApp botları (VPS PM2 whatsapp-agent): EANA (Hermes persona, 4 ailə üzvü
 OpenRouter WSL+VPS hər ikisində işləyir. Model: deepseek/deepseek-v4-flash.
 §
 5 Beyin fallback: AI modeli uğursuz olanda başqa modelə keçmir — sadəcə xəta mesajı göstərir. Hər AI yalnız öz modeli ilə cavab verir. (Səhvən fallback əlavə etmişdim, düzəltdim.)
+§
+Telegram gateway conflict fix: WSL+VPS eyni bot token ilə polling edəndə 'other getUpdates request' xətası. Həll: (1) VPS-də WhatsApp-ı söndür (hermes config set whatsapp.enabled false) - əgər gateway startını bloklayırsa, (2) TELEGRAM_BOT_TOKEN və OPENROUTER_API_KEY-i WSL .env-dən VPS .env-yə kopyala, (3) VPS gateway restart, (4) WSL gateway stop (hermes gateway stop). Yalnız bir instance Telegram-a qoşulsun.
