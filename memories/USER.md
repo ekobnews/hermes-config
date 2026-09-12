@@ -3,3 +3,5 @@ Elbrus Bağırov. Runs EKOB NEWS (Telegram/FB/IG). GitHub: ekobnews (ebuabu79@gm
 VPS-1 (95.217.157.137): WhatsApp bot (EANA, Bizim sinif), WhatsApp gateway. VPS-2 (77.42.37.230, crypto-bot): 5 Beyin Telegram bot, Hermes Agent 24/7. İKİNCİ VPS-Ə DİQQƏT: 5 Beyin layihəsi 77.42.37.230-dadır, 95.217.157.137-də yox. Səhv serverə bağlanma user-i əsəbiləşdirir.
 §
 EKOB NEWS bot: monitors Telegram + RSS, uses Claude to rewrite news in Azerbaijani, publishes via Telethon (TG) + Buffer API (FB/IG).
+§
+Elbrus Bağırov (ekobnews). Səkinə adlı sinif yoldaşı haqqında qeyd: Həsən müəllimin ədəbiyyatdan hazırlığa gedənlərə 5, getməyənlərə 4 qiyməti yazmasını ədalətsizlik sayır. Bu fakt mentionOnce mexanizmi ilə WhatsApp agent-də saxlanıldı.
