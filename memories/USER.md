@@ -5,3 +5,5 @@ VPS-1 (95.217.157.137): WhatsApp bot (EANA, Bizim sinif), WhatsApp gateway. VPS-
 EKOB NEWS bot: monitors Telegram + RSS, uses Claude to rewrite news in Azerbaijani, publishes via Telethon (TG) + Buffer API (FB/IG).
 §
 Elbrus Bağırov (ekobnews). Səkinə adlı sinif yoldaşı haqqında qeyd: Həsən müəllimin ədəbiyyatdan hazırlığa gedənlərə 5, getməyənlərə 4 qiyməti yazmasını ədalətsizlik sayır. Bu fakt mentionOnce mexanizmi ilə WhatsApp agent-də saxlanıldı.
+§
+Model preference: feels Gemini sounds more natural and sincere than ChatGPT/gpt-4o-mini for Azerbaijani WhatsApp conversations. OpenAI is neutral/assistant-like, Gemini is warmer and more natural.
