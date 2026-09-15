@@ -15,3 +15,5 @@ User insists discuss-before-act: 'hələ heç nə etmə, sadəcə müzakirə'. D
 WhatsApp botları (VPS PM2): EANA (Hermes, 4 üzv) + Bizim sinif (Həsən müəllim, 18 şagird). agent.js. Aynur=Tofiq Ramazanlı 0515027812. YALNIZ Elbrus+Almaz sinifkom idi. OpenRouter: gpt-4o-mini (mətn), gemini-2.0-flash-exp (şəkil). Agent.js dəyişikliyi üçün əvvəlcə müzakirə tələb olunur, icazəsiz dəyişiklik etmə.
 §
 Telegram gateway: sadəcə VPS aktiv polling edir. WSL gateway dayandırılıb (conflict qarşısı).
+§
+YouTube avtomatlaşdırma layihəsi müzakirəsi (3-cü səviyyə): tam avtonom AI video istehsalı + YouTube yükləmə. Ehtiyac: YouTube Data API, moviepy, TTS (Google/OpenAI), Pexels/Pixabay fon videoları, cron ilə gündəlik avtomatlaşdırma. Elbrus maraqlandı, davam edəcək.
