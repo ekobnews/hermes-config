@@ -14,4 +14,4 @@ OpenRouter WSL+VPS hər ikisində işləyir. Model: deepseek/deepseek-v4-flash.
 §
 Telegram gateway conflict fix: WSL+VPS eyni bot token ilə polling edəndə 'other getUpdates request' xətası. Həll: (1) VPS-də WhatsApp-ı söndür (hermes config set whatsapp.enabled false) - əgər gateway startını bloklayırsa, (2) TELEGRAM_BOT_TOKEN və OPENROUTER_API_KEY-i WSL .env-dən VPS .env-yə kopyala, (3) VPS gateway restart, (4) WSL gateway stop (hermes gateway stop). Yalnız bir instance Telegram-a qoşulsun.
 §
-EKOB NEWS Buffer rate limit: RATE_LIMIT_EXCEEDED, FB/IG/TT Blocker-dan dayandı. Həll: FB/IG-ni Graph API-ə keçirmək. buffer-api skill-i yaradıldı.
+EKOB NEWS Buffer rate limit account-level (not key). API key changed Sep6 no fix. FB/IG down since Sep5. Graph API migration offered, user hesitant.
