@@ -7,23 +7,11 @@ Bu qovluq Obsidian vault-dur. Hermes Agent tərəfindən idarə olunur.
 
 ## Qovluqlar
 
-- [[gundelik/06-09-2026|Gündəlik]] — gündəlik qeydlər
-- [[projeler/github-qurulumu|GitHub qurulumu]] — texniki layihələr
+- `gundelik/` — gündəlik qeydlər
+- `projeler/` — EKOB NEWS, Hermes və s.
 - `notlar/` — ümumi notlar
-|- `qeydler/` — texniki qeydlər
-
-## Layihələr
-
-- [[qeydler/EANA ailəsi - WhatsApp Bot|EANA ailəsi — WhatsApp Bot]]
-- [[qeydler/Bizim sinif qrupu - WhatsApp Bot|Bizim sinif — WhatsApp Bot]]
-- [[qeydler/5 Beyin layihəsi|5 Beyin — Telegram Bot]]
-- [[qeydler/OpenRouter konfiqurasiyası|OpenRouter konfiqurasiyası]]
+- `qeydler/` — texniki qeydlər
 
 ## GitHub
 
 Hermes konfiqurasiyası: github.com/ekobnews/hermes-config
-
-## Bağlantılar
-
-- [[gundelik/06-09-2026|6 Sentyabr 2026 — gündəlik qeydi]]
-- [[projeler/github-qurulumu|GitHub qurulum qeydi]]
