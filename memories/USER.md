@@ -5,3 +5,5 @@ VPS-1 (95.217.157.137): WhatsApp bot (EANA, Bizim sinif), WhatsApp gateway. VPS-
 Risk-averse with EKOB NEWS — prefers incremental fixes over rewrites. Has FB Business + IG Business pages. Won't share passwords.
 §
 EKOB NEWS pipeline: Telegram → AI → TG + Buffer (FB, IG, TikTok). VPS-1 95.217.157.137, /root/ekob_news/ekob.py, systemctl service. BUFFER_TIKTOK_CHANNEL_ID=6aaeec9dea19ca0bde8caaee.
+§
+User has read and enjoyed Dan Brown's "Da Vinçi Şifrəsi" (The Da Vinci Code). Likes mystery/historical fiction books.
