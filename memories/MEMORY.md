@@ -15,5 +15,3 @@ OpenRouter WSL+VPS hər ikisində işləyir. Model: deepseek/deepseek-v4-flash.
 Telegram gateway conflict fix: WSL+VPS eyni bot token ilə polling edəndə 'other getUpdates request' xətası. Həll: (1) VPS-də WhatsApp-ı söndür (hermes config set whatsapp.enabled false) - əgər gateway startını bloklayırsa, (2) TELEGRAM_BOT_TOKEN və OPENROUTER_API_KEY-i WSL .env-dən VPS .env-yə kopyala, (3) VPS gateway restart, (4) WSL gateway stop (hermes gateway stop). Yalnız bir instance Telegram-a qoşulsun.
 §
 EKOB NEWS Buffer RATE_LIMIT_EXCEEDED (account-level, 30d). Key change doesnt help. Graph API deferred (FB Dev app issue). User got TikTok API key. Railway+VPS same code.
-§
-YouTube avtonom video sistemi müzakirə olundu — Personal Finance nişi, həftədə 2 video, VPS-də qurulacaq. Elbrus qərar verəndə davam edəcək. İlk addım: YouTube kanalı açmaq.
