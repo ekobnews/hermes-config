@@ -10,8 +10,8 @@ WhatsApp botları (VPS PM2 whatsapp-agent): EANA (Hermes persona, 4 ailə üzvü
 §
 5 Beyin Telegram botu (VPS Docker): 4 AI (Çati-GPT4o, Gemi-Gemini2.5flash, Depi-DeepSeek, Klodi-Claude). Meta-orchestrator rolu bəndə. 8 təkmilləşdirmə: xərc, fallback, auto-memory, @mention, search, kontekst, auth, əmrlər. /root/5beyin-bot/. .env gözləyir.
 §
-OpenRouter WSL+VPS hər ikisində işləyir. Model: deepseek/deepseek-v4-flash.
+OpenRouter model: deepseek/deepseek-v4-flash
 §
 Telegram gateway conflict fix: WSL+VPS eyni bot token ilə polling edəndə 'other getUpdates request' xətası. Həll: (1) VPS-də WhatsApp-ı söndür (hermes config set whatsapp.enabled false) - əgər gateway startını bloklayırsa, (2) TELEGRAM_BOT_TOKEN və OPENROUTER_API_KEY-i WSL .env-dən VPS .env-yə kopyala, (3) VPS gateway restart, (4) WSL gateway stop (hermes gateway stop). Yalnız bir instance Telegram-a qoşulsun.
 §
-EKOB NEWS Buffer RATE_LIMIT_EXCEEDED (account-level, 30d). Key change doesnt help. Graph API deferred (FB Dev app issue). User got TikTok API key. Railway+VPS same code.
+EKOB NEWS Buffer limit+SSL broken — direct Meta+TikTok API qurulur. User non-developer, browser step-by-step lazım. Priority: FB full, IG/TikTok only media posts.
