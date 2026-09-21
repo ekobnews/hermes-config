@@ -15,3 +15,5 @@ OpenRouter model: deepseek/deepseek-v4-flash
 Telegram gateway conflict fix: WSL+VPS eyni bot token ilə polling edəndə 'other getUpdates request' xətası. Həll: (1) VPS-də WhatsApp-ı söndür (hermes config set whatsapp.enabled false) - əgər gateway startını bloklayırsa, (2) TELEGRAM_BOT_TOKEN və OPENROUTER_API_KEY-i WSL .env-dən VPS .env-yə kopyala, (3) VPS gateway restart, (4) WSL gateway stop (hermes gateway stop). Yalnız bir instance Telegram-a qoşulsun.
 §
 EKOB NEWS Buffer limit+SSL broken — direct Meta+TikTok API qurulur. User non-developer, browser step-by-step lazım. Priority: FB full, IG/TikTok only media posts.
+§
+Podcast hazırlamaq: ssenari yazıb TTS ilə səsləndirib MP3/səsli mesaj kimi göndərə bilərəm. Müntəzəm buraxılış da mümkün (cronjob). User istədiyi vaxt yad salmağımı istədi.
