@@ -14,4 +14,4 @@ OpenRouter model: deepseek/deepseek-v4-flash
 §
 Telegram gateway conflict fix: WSL+VPS eyni bot token ilə polling edəndə 'other getUpdates request' xətası. Həll: (1) VPS-də WhatsApp-ı söndür (hermes config set whatsapp.enabled false) - əgər gateway startını bloklayırsa, (2) TELEGRAM_BOT_TOKEN və OPENROUTER_API_KEY-i WSL .env-dən VPS .env-yə kopyala, (3) VPS gateway restart, (4) WSL gateway stop (hermes gateway stop). Yalnız bir instance Telegram-a qoşulsun.
 §
-EKOB NEWS pipeline: /root/ekob_news/ekob.py, service ekob-news. Buffer API ilə FB/IG/TikTok paylaşır. Fix: promptda çıxış format təyin olunmalı (2026-09-23)
+EKOB NEWS: /root/ekob_news/ekob.py, service ekob-news. AI redaktor GPT-4o-mini (OpenRouter, Claude fallback). Hosting Uguu.se (Catbox etibarsız). AÇIQ: Buffer FB kanal tokeni vaxtı keçib (post.status=error) — Buffer-da FB kanalı yenidən qoşulmalı.
