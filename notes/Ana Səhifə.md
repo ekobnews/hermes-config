@@ -9,6 +9,7 @@ Bu qovluq Obsidian vault-dur. Hermes Agent tərəfindən idarə olunur.
 
 - [[gundelik/06-09-2026|Gündəlik]] — gündəlik qeydlər
 - [[projeler/github-qurulumu|GitHub qurulumu]] — texniki layihələr
+- [[projeler/ekob-news-tiktok-video-sistemi|EKOB NEWS TikTok Video Sistemi]]
 - `notlar/` — ümumi notlar
 |- `qeydler/` — texniki qeydlər
 
