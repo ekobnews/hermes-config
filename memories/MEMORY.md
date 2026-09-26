@@ -6,10 +6,8 @@ WhatsApp botları (VPS PM2 whatsapp-agent): EANA (Hermes persona, 4 ailə üzvü
 §
 5 Beyin Telegram botu (VPS Docker): 4 AI (Çati-GPT4o, Gemi-Gemini2.5flash, Depi-DeepSeek, Klodi-Claude). Meta-orchestrator rolu bəndə. 8 təkmilləşdirmə: xərc, fallback, auto-memory, @mention, search, kontekst, auth, əmrlər. /root/5beyin-bot/. .env gözləyir.
 §
-EKOB NEWS: /root/ekob_news/ekob.py, service ekob-news. AI redaktor GPT-4o-mini (OpenRouter, Claude fallback). Hosting Uguu.se (Catbox etibarsız). AÇIQ: Buffer FB kanal tokeni vaxtı keçib (post.status=error) — Buffer-da FB kanalı yenidən qoşulmalı.
-§
 EKOB NEWS AI redaktor GPT-4o-mini (OpenRouter, Claude fallback). OPENROUTER_API_KEY .env-də yox idi, Hermes açarı əlavə edildi. Buffer LimitReachedError (Free limiti doldu) FB/IG/TT dayandırıb. Həll üçün Buffer Essentials plan.
 §
-EKOB NEWS mənbələr (26.09): Telegram: @Axaraz, @eco_expert, @BanksterShow, @expertonomics, @NatGeo, @aipost, @WatcherGuru. RSS: BBC, InterestingEngineering, tr.beincrypto.com/feed/, news.google.com/rss.
-§
 EKOB NEWS Pipeline: (1) GPT-4o-mini OpenRouter əsas AI, Claude fallback. (2) Uguu.se hosting (Catbox sınmış). (3) Keepalive: RSS-də client.get_me() + cron hər 2 saat restart. (4) Ölü @username bot crash edir - yoxla əvvəl. (5) STRING_SESSION .env-də də olmalı. (6) Buffer FB token 60 günlük - browser yenidən qoşul (post.status=error). (7) Analytics cron: daily 1df96361be3a, weekly 28fa91ac61ec, 02:00 UTC (=06:00 AZ).
+§
+EKOB NEWS 26.09: Mənbə Telegram: @Axaraz, @eco_expert, @BanksterShow, @expertonomics, @aipost, @WatcherGuru, @NatGeoSociety. RSS: BBC, InterestingEngineering, tr.beincrypto.com/feed/, news.google.com/rss. AI: GPT-4o-mini (Claude fallback). Keepalive: hər 30 dəq client.get_me(). Analytics: bot daxilində gündəlik (06:00 AZ) + həftəlik (Bazar 06:00 AZ) hesabat, Telegram+Buffer stats.
