@@ -9,3 +9,7 @@ WhatsApp botları (VPS PM2 whatsapp-agent): EANA (Hermes persona, 4 ailə üzvü
 5 Beyin Telegram botu (VPS Docker): 4 AI (Çati-GPT4o, Gemi-Gemini2.5flash, Depi-DeepSeek, Klodi-Claude). Meta-orchestrator rolu bəndə. 8 təkmilləşdirmə: xərc, fallback, auto-memory, @mention, search, kontekst, auth, əmrlər. /root/5beyin-bot/. .env gözləyir.
 §
 EKOB NEWS PWA PORTAL: Emergent.sh (AI full-stack builder, React/Next.js+FastAPI). Öz domen. Kateqoriyalar (8): Yaşıl Tex, İqlim, Təbiət, Eko-həyat, AI, Kripto, İqtisadiyyat, Siyasət. Ticker: BTC,ETH + CSCO,SCHD. API: /api/news, /api/market-prices. Bot bazaya xəbər yazacaq. Logo yaşıl+gümüşü.
+§
+User qaydası (CRITICAL): Hər hansı kod/config düzəlişi etməzdən əvvəl MÜTLƏQ soruş. Sən deməsən icra etmə. Təsdiq gözlə.
+§
+EKOB NEWS lesson (28.09): Telethon event handler üçün `chats=` parametri ilə resolve yerinə runtime username filter işlə. `chats=` hər restartda resolve olunur — uğursuz olanda kanal itir. `@client.on(events.NewMessage)` + daxildə `chat.username` yoxlaması daha etibarlıdır.
