@@ -13,3 +13,5 @@ EKOB NEWS PWA PORTAL: Emergent.sh (AI full-stack builder, React/Next.js+FastAPI)
 User qaydası (CRITICAL): Hər hansı kod/config düzəlişi etməzdən əvvəl MÜTLƏQ soruş. Sən deməsən icra etmə. Təsdiq gözlə.
 §
 EKOB NEWS lesson (28.09): Telethon event handler üçün `chats=` parametri ilə resolve yerinə runtime username filter işlə. `chats=` hər restartda resolve olunur — uğursuz olanda kanal itir. `@client.on(events.NewMessage)` + daxildə `chat.username` yoxlaması daha etibarlıdır.
+§
+User interested in YouTube Shorts avtomatlaşdırma (fight sports, boxing, MMA). Müzakirə mərhələsindədir, hələ layihə deyil.
