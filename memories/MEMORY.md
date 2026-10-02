@@ -8,6 +8,6 @@ WhatsApp botları (VPS PM2 whatsapp-agent): EANA (Hermes persona, 4 ailə üzvü
 §
 5 Beyin Telegram botu (VPS Docker): 4 AI (Çati-GPT4o, Gemi-Gemini2.5flash, Depi-DeepSeek, Klodi-Claude). Meta-orchestrator rolu bəndə. 8 təkmilləşdirmə: xərc, fallback, auto-memory, @mention, search, kontekst, auth, əmrlər. /root/5beyin-bot/. .env gözləyir.
 §
-EKOB NEWS PWA PORTAL: emergent.sh ilə qurulur (React/Next.js+FastAPI), demək olar hazırdı. Telegram inteqrasiyası (kanal → sayt), AI kateqoriyalaşdırma (8 kateqoriya), domain deploment qalıb. Gündəlik 3-4 dəq AI xülasə videosu planı var — virtual aparıcı ilə (D-ID və ya analoqu). 8 kateqoriya: Yaşıl Tex, İqlim, Təbiət, Eko-həyat, AI, Kripto, İqtisadiyyat, Siyasət. Ticker: BTC,ETH + CSCO,SCHD. Logo: yaşıl+gümüşü.
+User səmimi, isti ünsiyyət gözləyir — "işləyirəm, nə deyirsən?" kimi soyuq qarşılama onu incitdi. Salamlaşanda sadəcə hal-əhval, əsla məşğul olduğunu bildirmə. İş haqqında danışanda birbaşa.
 §
-User səmimi, isti ünsiyyət gözləyir — soyuq/robotik qarşılama ("işləyirəm, nə deyirsən?") xoşuna gəlmir. Salamlaşanda sadəcə hal-əhval, isti ton, sualsız. İş haqqında danışanda isə birbaşa və məzmunlu.
+EKOB NEWS PWA PORTAL + gündəlik AI avatar videosu: emergent.sh ilə qurulur (hazırlıq mərhələsi). Telegram inteqrasiyası + 8 kateqoriya + domain planı var. HeyGen seçildi (AZ dili təsdiqləndi), D-ID alternativ. Test: mətn → HeyGen → video, sonra cron ilə avtomatik.
