@@ -11,3 +11,5 @@ EKOB NEWS PWA PORTAL + gündəlik AI avatar videosu: emergent.sh ilə qurulur (h
 Fight shorts YouTube kanalı ideyası — boxers/MMA (Tyson, Canelo, Jones, Khabib, McGregor). Hər gün 1 short, YouTube Shorts. Müzakirə mərhələsində.
 §
 Kanban (Dispatch) VPS-də qurulub (hermes kanban init). Gateway dispatcher aktivdir. Board boş, istifadə edilmir — lazım olanda deyəcək. Cowork (Computer Use) aktivdir, hələ işlədilmir.
+§
+Previous session covered: EKOB NEWS skills update with source channels (9), GPT-4o-mini, keepalive, analytics disabled, AI language rules, Kanban setup, Cowork active. User wants direct Azerbaijani responses, consultation before changes, triple-save pattern.
