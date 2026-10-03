@@ -6,4 +6,4 @@ Risk-averse with EKOB NEWS — prefers incremental fixes over rewrites. Has FB B
 §
 EKOB NEWS pipeline: Telegram → AI → TG + Buffer (FB, IG, TikTok). VPS-1 95.217.157.137, /root/ekob_news/ekob.py, systemctl service. BUFFER_TIKTOK_CHANNEL_ID=6aaeec9dea19ca0bde8caaee.
 §
-Frustrated when asked to do terminal/VNC commands. Said "sən hər şeyi mənə etdirirsən, mən bunları tam edə bilmirəm" — wants agent to handle everything itself, only ask for help when truly stuck. Can't copy-paste from Hetzner VNC Console, struggles with pipe/redirect syntax, doesn't know technical terms like firewall.
+User gives honest, direct feedback about mistakes without sugarcoating — 'çünki mən bütün bu işlərdə sənə güvənirəm'. Expects me not to be offended by corrections. Wants continuous self-improvement (təkmilləşmək). Practical: useless features get disabled (daily report).
