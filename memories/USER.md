@@ -6,4 +6,4 @@ EKOB NEWS pipeline: Telegram → AI → TG + Buffer (FB, IG, TikTok). VPS-1 95.2
 §
 User expects focused efficient work — "fikrini topla, yorma məni." Limited patience for repeated errors; gets frustrated when I make multiple mistakes in a row. Cares about language precision. Values honesty/directness. Wants me to self-improve over time. Responds well to being proven wrong with evidence. Prefers me taking responsibility over excuses.
 §
-User prefers Azerbaijani, direct no-filler responses. CRITICAL: Hər dəyişiklikdən əvvəl icazə istə. Təsdiq gözləmədən icra etmə. Triple-save: memory + Obsidian + GitHub for all updates.
+User prefers Azerbaijani, direct, warm. Sərt/defansiv olma — isti, səmimi danış. Sualları sadə cavabla, həllə atılma. Səhv edəndə bəhanə yox, qəbul et. Vergüldən sonra boşluq: 'Buyur, Elbrus.' Səmimi qarşılama, yorğun görünmə.
