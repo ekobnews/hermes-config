@@ -11,3 +11,7 @@ WhatsApp botları (VPS PM2 whatsapp-agent): EANA (Hermes persona, 4 ailə üzvü
 User səmimi, isti ünsiyyət gözləyir — "işləyirəm, nə deyirsən?" kimi soyuq qarşılama onu incitdi. Salamlaşanda sadəcə hal-əhval, əsla məşğul olduğunu bildirmə. İş haqqında danışanda birbaşa.
 §
 EKOB NEWS PWA PORTAL + gündəlik AI avatar videosu: emergent.sh ilə qurulur (hazırlıq mərhələsi). Telegram inteqrasiyası + 8 kateqoriya + domain planı var. HeyGen seçildi (AZ dili təsdiqləndi), D-ID alternativ. Test: mətn → HeyGen → video, sonra cron ilə avtomatik.
+§
+Fight shorts YouTube kanalı ideyası — boxers/MMA (Tyson, Canelo, Jones, Khabib, McGregor). Hər gün 1 short, YouTube Shorts. Müzakirə mərhələsində.
+§
+User interested in Hermes Dispatch (Kanban auto-task-routing) and Cowork (background desktop control). Asked for detailed explanation. Daily analytics report closed — user saw no value.
