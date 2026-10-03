@@ -1,3 +1,6 @@
+---
+⬆️ [[Ana Səhifə]]
+
 # "Bizim sinif" qrupu — WhatsApp Bot konfiqurasiyası
 
 **Yenilənmə tarixi:** 12.09.2026

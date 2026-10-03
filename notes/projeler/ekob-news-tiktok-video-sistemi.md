@@ -1,3 +1,6 @@
+---
+⬆️ [[Ana Səhifə]]
+
 # EKOB NEWS — TikTok Video Sistemi
 
 **Tarix**: 20 Sentyabr 2026

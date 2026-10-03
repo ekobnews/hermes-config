@@ -1,3 +1,6 @@
+---
+⬆️ [[Ana Səhifə]]
+
 # OpenRouter konfiqurasiyası (12.09.2026)
 
 OpenRouter hər iki maşında yenidən qurulub və işləyir:

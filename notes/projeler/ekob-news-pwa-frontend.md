@@ -1,3 +1,6 @@
+---
+⬆️ [[Ana Səhifə]]
+
 # EKOB NEWS PWA — Frontend Komponentləri
 
 **Texnologiya:** React + Next.js + Tailwind CSS (Emergent.sh)

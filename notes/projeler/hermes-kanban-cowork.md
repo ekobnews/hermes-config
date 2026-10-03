@@ -1,3 +1,6 @@
+---
+⬆️ [[Ana Səhifə]]
+
 # Kanban (Dispatch) + Cowork — 03.10.2026
 
 ## Kanban (Dispatch)

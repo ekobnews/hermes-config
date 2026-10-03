@@ -1,3 +1,6 @@
+---
+⬆️ [[Ana Səhifə]]
+
 # "5 Beyin" Layihəsi — Yenilənmiş məlumat
 
 **Yenilənmə tarixi:** 12.09.2026
