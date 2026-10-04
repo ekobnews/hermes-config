@@ -12,4 +12,6 @@ User səmimi, isti ünsiyyət gözləyir — "işləyirəm, nə deyirsən?" kimi
 §
 EKOB NEWS PWA PORTAL + gündəlik AI avatar videosu: emergent.sh ilə qurulur (hazırlıq mərhələsi). Telegram inteqrasiyası + 8 kateqoriya + domain planı var. HeyGen seçildi (AZ dili təsdiqləndi), D-ID alternativ. Test: mətn → HeyGen → video, sonra cron ilə avtomatik.
 §
-Obsidian vault (C:/Users/ELBRUS/Documents/hermes-notes/) və hermes-config git repo-nun notes/ qovluğu (~/hermes-config/notes/) AYRI qovluqlardır — sinxron deyil. Git pull yalnız hermes-config/notes/-ə çəkir, Obsidian görmür. Həll: post-merge hook (rsync notes/ → Obsidian vault) ən təmiz üsuldur. Symlink işləməz (git symlink-i fayl kimi izləyir). obsidian-workflow skill-i user-owned, curator adopt edib patc etmək olar.
+Post-merge hook: ~/hermes-config/.git/hooks/post-merge — hər git pull-da notes/ → Obsidian vault-a avtomatik rsync. .gitignore-ə vault extras əlavə olundu. Commit+push edildi.
+§
+User həm WSL, həm VPS agentlərini qarşılıqlı işlədir — fikirləri birimizdən o birinə göndərir, konsensus gözləyir. İki agentin razılaşdığı həllərə daha çox güvənir.
