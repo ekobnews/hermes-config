@@ -8,4 +8,4 @@ User səmimi, isti ünsiyyət gözləyir — "işləyirəm, nə deyirsən?" kimi
 §
 Post-merge hook (WSL): ~/hermes-config/.git/hooks/post-merge — hər git pull-da notes/→Obsidian rsync+.gitignore vault extras. VPS-də broken deyil.
 §
-Fight Shorts (04.10): banner API yuklendi. Intro(4.7s)+watermark pipeline auto_shorts.py. 10 dovuscu, gunde 1 short 18:00 AZ(cron). ElevenLabs: API key sk_979..., voice bfGb7JTLUnZebZRiFYyq, Starter $5/mo, eleven_multilingual_v2. Logo: AI deyil, user oz dizayneri — hec vaxt PIL ile logo yaratma.
+Fight Shorts (04.10) — avtomatik gundelik 1 short 18:00 AZ. Kevin MacLeod CC BY 4.0 musiqi (claim-free). Intro 4.7s + watermark. Banner yuklendi. 10 dovuscu siyahisi.
