@@ -11,7 +11,3 @@ WhatsApp botları (VPS PM2 whatsapp-agent): EANA (Hermes persona, 4 ailə üzvü
 User səmimi, isti ünsiyyət gözləyir — "işləyirəm, nə deyirsən?" kimi soyuq qarşılama onu incitdi. Salamlaşanda sadəcə hal-əhval, əsla məşğul olduğunu bildirmə. İş haqqında danışanda birbaşa.
 §
 EKOB NEWS PWA PORTAL + gündəlik AI avatar videosu: emergent.sh ilə qurulur (hazırlıq mərhələsi). Telegram inteqrasiyası + 8 kateqoriya + domain planı var. HeyGen seçildi (AZ dili təsdiqləndi), D-ID alternativ. Test: mətn → HeyGen → video, sonra cron ilə avtomatik.
-§
-Fight Shorts YouTube kanalı quruldu. YouTube Data API v3 aktiv, refresh token alındı. PKCE OAuth flow işləyir. Kanal ID: UCTD-nHfgAhWNOn41VJQoGWw. Uploader youtube_uploader.py hazırdır — FFmpeg + Edge TTS + YouTube API. Növbəti: mənbə videoları tapıb shorts hazırlamaq.
-§
-Tone feedback: never be defensive when user corrects me. When user says 'sanki aqressivsən', soften tone immediately. Plan ALL steps before involving user — don't discover issues mid-way through their browser steps.
