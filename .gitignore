@@ -54,7 +54,11 @@ state/
 shared/
 images/
 
-# Obsidian vault cache
-notes/.obsidian/workspace.json
-notes/.obsidian/workspace-mobile.json
-notes/.obsidian/cache/
+# Obsidian vault extras (not tracked in repo)
+notes/.obsidian/
+notes/backup-password.txt
+notes/ekob-critical-backup-*.enc
+notes/gundelik/
+notes/notlar/
+notes/qeydler/
+notes/restore-backup.sh
