@@ -1,7 +1,9 @@
-Elbrus Bağırov. EKOB NEWS (TG/FB/IG/IG Biz). GitHub: ekobnews (ebuabu79). Obsidian: C:\Users\ELBRUS\Documents\hermes-notes. Python urllib. Triple-save: memory+Obsidian+GH. Azərbaycanca, qısa, birbaşa, sualsız cavab. Səmimi qarşılama gözləyir — 'işləyirəm, nə deyirsən' kimi soyuq qarşılama onu əsəbləşdirir. Strukturlu izahat sevir.
+Elbrus Bağırov. EKOB NEWS, GitHub ekobnews. Triple-save. Azərbaycanca qısa birbaşa sualsız. Səmimi qarşılama lazimdi.
 §
-Infra: VPS-1=95.217.157.137 (WhatsApp EANA/Bizim sinif, ekob-news systemd). VPS-2=77.42.37.230 (5 Beyin bot, Hermes 24/7). EKOB NEWS: Telegram→AI→TG+Buffeer (FB/IG/TT). Risk-averse: incremental fixes, won't share passwords. Does NOT want terminal/VNC steps — agent must handle everything, only ask when truly stuck.
+Infra: VPS-1=95.217.157.137 (WhatsApp+ekob). VPS-2=77.42.37.230 (5Beyin+Hermes). Agent must do every task, no terminal steps for user.
 §
-Professionalization mindset: wants guidance on what to professionalize next. ALWAYS discuss/advise first THEN implement. ElevenLabs Starter $6/mo active. Pixabay music (monetization-safe). Fight Shorts branding: circular dark+red+white 'FIGHT SHORTS' logo, banner with 'BOXING • MMA • FIGHT SCENES' + subscribe CTA. Risk-averse about copyright/monetization.
+Professionalization: discuss first then implement. ElevenLabs $6/mo. Pixabay music. Fight Shorts branding (circular dark+red+white logo, banner). Risk-averse on monetization.
 §
-Desires proactive professional direction: 'bundan sonra nə etsək o işin getdikcə peşəkar olması üçün mənə istiqamətlər ver' — wants guidance, not just execution. Rejects AI-generated/programmatic logos as 'multfilm'. Prefers real designer logos.
+Wants proactive professional direction — guidance not just execution. Rejects AI logos as 'multfilm'. Prefers real designer work.
+§
+Personality: persistent tester/reporter, monitors everything personally. Active late night. Follows through on agreed implementations. Has own professionally designed brand assets (logos, banners, videos).
