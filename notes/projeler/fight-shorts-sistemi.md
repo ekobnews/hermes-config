@@ -1,58 +1,28 @@
-# Fight Shorts — YouTube Avtomatlaşdırma Sistemi
+# Fight Shorts — Sistem Tam Quraşdırma (04.10.2026)
 
-## 03-04.10.2026
+## Kanala aid aktivlər
+- **Avatar:** Kanal şəkli — user əl ilə yükləyib (API dəstəkləmir)
+- **Banner:** YouTube API ilə yükləndi — `yt3.googleusercontent.com/...`
+- **İntro (5 kadr):** ring → siluet → əlcək → FIGHT SHORTS → SUBSCRIBE — hər video başında 4.7s
+- **Watermark:** Fight Shorts loqosu, sağ alt küncdə daimi
 
-### YouTube API Quraşdırması
-- **Google Cloud Console:** "Fight Shorts" layihəsi yaradıldı
-- **YouTube Data API v3:** Enable edildi
-- **OAuth Consent Screen:** Konfiqurasiya edildi (test user: ebuabu79@gmail.com)
-- **OAuth Client:** "Fight Shorts Bot" — Desktop app
-- **Redirect URI:** `urn:ietf:wg:oauth:2.0:oob`
-- **Refresh Token:** ✅ Alındı (qalıcı)
-- **PKCE:** code_verifier ilə işləyir
-- **Playwright:** Kalıcı browser profili `/root/.youtube_session` (cookie rotasiyası üçün)
+## Texniki quraşdırma
+- **auto_shorts.py** — gündə 1 short, 18:00 AZ (cron)
+- **Musiqi:** Kevin MacLeod (incompetech.com) — CC BY 4.0, claim-free, monetizasiya təhlükəsiz
+- **Səs:** ElevenLabs (Starter $5/ay, voice ID: bfGb7JTLUnZebZRiFYyq)
+- **Intro + Watermark** auto_shorts.py pipeline-ə əlavə olundu
+- **Video keyfiyyət:** 720p (veryfast preset)
+- **Cookies:** `youtube_cookies.txt` — Playwright profili də hazırlanıb
 
-### Kanal
-- Ad: **Fight Shorts**
-- ID: `UCTD-nHfgAhWNOn41VJQoGWw`
-- Tip: Brand Account (Google hesabı altında)
+## API Açarları (.env)
+- ElevenLabs: sk_979b3cd530fe3721ba2e6c8ae70bf66a21e3315563add8ed
+- Pixabay: 57878638-d911c1b83460ea2246f4a1d40
 
-### Video Pipeline
-1. **yt-dlp** — YouTube-dan mənbə video axtarır (720p, keyfiyyətli)
-2. **FFmpeg** — 720x1280 Shorts formatına çevirir, 30-40san kəsir
-3. **Edge TTS** (DavisNeural) — kişi səsi ilə təsvir
-4. **FFmpeg (amix)** — səs + epik döyüş musiqisi qarışdırır
-5. **YouTube API v3** — Fight Shorts kanalına yükləyir
+## Döyüşçü Sırası
+1. ✅ Mike Tyson (yüklənib)
+2. ✅ Muhammad Ali (yüklənib)
+3. ⏳ Conor McGregor — 05.10.2026 18:00 AZ
+4. Khabib, Jones, Canelo, Ngannou, Silva, Foreman, Fury
 
-### Döyüşçü Sırası
-| # | Döyüşçü | Tarix | Status |
-|---|---|---|---|
-| 1 | Mike Tyson | 04.10 | ✅ [YouTube](https://youtube.com/watch?v=lj6blzyvoQ0) |
-| 2 | Muhammad Ali | 04.10 | ✅ [YouTube](https://youtube.com/watch?v=7yDnLGCX_YI) |
-| 3 | Conor McGregor | 05.10 | ⏳ |
-| 4 | Khabib Nurmagomedov | 06.10 | ⏳ |
-| 5 | Jon Jones | 07.10 | ⏳ |
-| 6 | Canelo Alvarez | 08.10 | ⏳ |
-| 7 | Francis Ngannou | 09.10 | ⏳ |
-| 8 | Anderson Silva | 10.10 | ⏳ |
-| 9 | George Foreman | 11.10 | ⏳ |
-| 10 | Tyson Fury | 12.10 | ⏳ |
-
-### Fayllar
-- `auto_shorts.py` — master avtomatlaşdırma skripti (gündə 1 short)
-- `youtube_uploader.py` — YouTube API uploader
-- `youtube_auth.py` — OAuth auth skripti
-- `youtube_session.py` — Playwright session meneceri
-- `youtube_cookies.py` — Cookie yönəticisi
-- `fight_shorts.py` — ilkin generator (köhnə)
-- `youtube_cookies.txt` — Saxlanmış YouTube cookies
-
-### Cron
-- **Fight Shorts Daily** — hər gün 14:00 UTC (18:00 AZ)
-- auto_shorts.py işləyir, nəticəni bura bildirir
-
-### Dərslər
-- YouTube cookies tez rotasiya olunur → Playwright profili qalıcı həll
-- FFmpeg `-c copy` ilə kəsmək işləmir (keyframe alignment)
-- 1080x1920 encoding VPS-də yavaşdır → 720p istifadə edirik
-- Edge TTS bəzən "No audio received" xətası verir → Hermes TTS daha stabil
+## GitHub
+- `ekob-news-bot` reposu: auto_shorts.py, assets/, .env (API açarları)
