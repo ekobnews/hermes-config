@@ -10,6 +10,7 @@
 - [[projeler/ekob-news-backup-monitoring]] — Backup + monitoring
 - [[projeler/hermes-kanban-cowork]] — Kanban + Cowork
 - [[projeler/fight-shorts-sistemi]] — YouTube Fight Shorts
+- [[projeler/5beyin-bot-duzelis-04102026]] — 04.10 5 Beyin təmiri
 - [[qeydler/EANA ailəsi - WhatsApp Bot]] — WhatsApp EANA botu
 - [[qeydler/Bizim sinif qrupu - WhatsApp Bot]] — WhatsApp sinif botu
 - [[qeydler/5 Beyin layihəsi]] — 5 Beyin bot
