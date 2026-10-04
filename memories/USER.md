@@ -2,4 +2,4 @@ Elbrus Bağırov. EKOB NEWS (TG/FB/IG/IG Biz). GitHub: ekobnews (ebuabu79). Obsi
 §
 Infra: VPS-1=95.217.157.137 (WhatsApp EANA/Bizim sinif, ekob-news systemd). VPS-2=77.42.37.230 (5 Beyin bot, Hermes 24/7). EKOB NEWS: Telegram→AI→TG+Buffeer (FB/IG/TT). Risk-averse: incremental fixes, won't share passwords. Does NOT want terminal/VNC steps — agent must handle everything, only ask when truly stuck.
 §
-Professionalization mindset: wants every decision to make work more professional. Wants guidance from me on what to professionalize next. Work style: discuss/advise FIRST, then implement. Fight Shorts logo: self-selected dark+red+white, preferred over AI logos. ElevenLabs Starter plan active for professional voiceovers.
+Professionalization mindset: wants guidance on what to professionalize next. ALWAYS discuss/advise first THEN implement. ElevenLabs Starter $6/mo active. Pixabay music (monetization-safe). Fight Shorts branding: circular dark+red+white 'FIGHT SHORTS' logo, banner with 'BOXING • MMA • FIGHT SCENES' + subscribe CTA. Risk-averse about copyright/monetization.
