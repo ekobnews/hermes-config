@@ -8,7 +8,7 @@ User səmimi, isti ünsiyyət gözləyir — "işləyirəm, nə deyirsən?" kimi
 §
 Post-merge hook (WSL): ~/hermes-config/.git/hooks/post-merge — hər git pull-da notes/→Obsidian rsync+.gitignore vault extras. VPS-də broken deyil.
 §
-Fight Shorts (04.10) — avtomatik gundelik 1 short 18:00 AZ. Keyfiyyeti onemli: 720p min, duzgun musiqi sectir. Kevin MacLeod CC BY 4.0. Intro 4.7s + watermark. ElevenLabs ($5/ay). Banner API yuklendi. Avatar manuel. 10 dovuscu siyahisi. Strategiya: short abuneci toplayir, sonra uzun video ile qazanc.
+Fight Shorts (04.10): gundelik 1 short, cron venv/bin/python3 ilə işləyir (cron python3 bug düzəldi). Kevin MacLeod CC BY 4.0 + watermark. ElevenLabs. YouTube VPS IP-sini bot-bloklayır (okt 2026: yt-dlp + browser tam blok) — auto_shorts.py Dailymotion fallback ilə patch olunub. Stabil həll: rezidensial proxy + QR login.
 §
 5 Beyin (04.10): Klodi claude-sonnet-4-20250514→sonnet-5, Depi deepseek-chat→flash (ikisi retired idi). Video intro cixarildi (piksel). Conor yuklendi. Yalniz watermark qaldi.
 §
