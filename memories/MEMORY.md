@@ -8,10 +8,8 @@ User səmimi, isti ünsiyyət gözləyir — "işləyirəm, nə deyirsən?" kimi
 §
 Post-merge hook (WSL): ~/hermes-config/.git/hooks/post-merge — hər git pull-da notes/→Obsidian rsync+.gitignore vault extras. VPS-də broken deyil.
 §
-Fight Shorts (04.10): gundelik 1 short, cron venv/bin/python3 ilə işləyir (cron python3 bug düzəldi). Kevin MacLeod CC BY 4.0 + watermark. ElevenLabs. YouTube VPS IP-sini bot-bloklayır (okt 2026: yt-dlp + browser tam blok) — auto_shorts.py Dailymotion fallback ilə patch olunub. Stabil həll: rezidensial proxy + QR login.
+Fight Shorts (06.10): 25 klip kitabxana (4 dovuscu), 17 iri musiqi (Clash Defiant stili). Story arc (3 hisse + yazi). Ses cixarildi (robotik). Slo-mo texire (ML/GPU lazim). Cron: 1/video/gun 18:00 AZ, kitabxana→Dailymotion fallback. YouTube VPS IP bot-blok.
 §
 5 Beyin (04.10): Klodi claude-sonnet-4-20250514→sonnet-5, Depi deepseek-chat→flash (ikisi retired idi). Video intro cixarildi (piksel). Conor yuklendi. Yalniz watermark qaldi.
-§
-User correction (06.10): Həmişə saat vaxtına diqqət et — gecə/səhər/qayıdış fərqinə var. 'Gözü yumulu vaxtdan xəbərsiz' yazışmaq istəmir, təkmilləşmiş, vaxtı bilən bir köməkçi gözləyir.
 §
 User: "Mən işimi getdikcə peşəkar hala gətirməyə çalışıram" — wants discussion first, then action. Wants quality roadmap guidance (nəyi hansı sırada peşəkarlaşdıraq). Sharp eye for quality — rejected pixelated intro, boring music. Likes aggressive fight music (Clash Defiant type). Before any action, discuss (müzakirə) — never implement without user confirming.
