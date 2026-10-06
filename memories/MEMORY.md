@@ -13,3 +13,5 @@ Fight Shorts (04.10) — avtomatik gundelik 1 short 18:00 AZ. Keyfiyyeti onemli:
 5 Beyin (04.10): Klodi claude-sonnet-4-20250514→sonnet-5, Depi deepseek-chat→flash (ikisi retired idi). Video intro cixarildi (piksel). Conor yuklendi. Yalniz watermark qaldi.
 §
 User core motivation: "Mən işimi getdikcə peşəkar hala gətirməyə çalışıram" — wants step-by-step professionalization. Before acting wants discussion/strategy first ("müzakirə və məsləhətlər edək, sonra işə davam edək"). Wants me to give direction on quality roadmap. Has sharp eye for quality — rejected pixelated intro immediately.
+§
+User correction (06.10): Həmişə saat vaxtına diqqət et — gecə/səhər/qayıdış fərqinə var. 'Gözü yumulu vaxtdan xəbərsiz' yazışmaq istəmir, təkmilləşmiş, vaxtı bilən bir köməkçi gözləyir.
