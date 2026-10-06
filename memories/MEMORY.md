@@ -12,6 +12,6 @@ Fight Shorts (04.10): gundelik 1 short, cron venv/bin/python3 ilə işləyir (cr
 §
 5 Beyin (04.10): Klodi claude-sonnet-4-20250514→sonnet-5, Depi deepseek-chat→flash (ikisi retired idi). Video intro cixarildi (piksel). Conor yuklendi. Yalniz watermark qaldi.
 §
-User core motivation: "Mən işimi getdikcə peşəkar hala gətirməyə çalışıram" — wants step-by-step professionalization. Before acting wants discussion/strategy first ("müzakirə və məsləhətlər edək, sonra işə davam edək"). Wants me to give direction on quality roadmap. Has sharp eye for quality — rejected pixelated intro immediately.
-§
 User correction (06.10): Həmişə saat vaxtına diqqət et — gecə/səhər/qayıdış fərqinə var. 'Gözü yumulu vaxtdan xəbərsiz' yazışmaq istəmir, təkmilləşmiş, vaxtı bilən bir köməkçi gözləyir.
+§
+User: "Mən işimi getdikcə peşəkar hala gətirməyə çalışıram" — wants discussion first, then action. Wants quality roadmap guidance (nəyi hansı sırada peşəkarlaşdıraq). Sharp eye for quality — rejected pixelated intro, boring music. Likes aggressive fight music (Clash Defiant type). Before any action, discuss (müzakirə) — never implement without user confirming.
