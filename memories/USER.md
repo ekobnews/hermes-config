@@ -7,3 +7,5 @@ Professionalization: discuss first then implement. ElevenLabs $6/mo. Pixabay mus
 Wants proactive professional direction — guidance not just execution. Rejects AI logos as 'multfilm'. Prefers real designer work.
 §
 Personality: persistent tester/reporter, monitors everything personally. Active late night. Follows through on agreed implementations. Has own professionally designed brand assets (logos, banners, videos).
+§
+Vaxta diqqət (06.10 korreksiya): Həmişə saatı yoxla, gecə/səhər/qayıdış fərqinə var. 'Gözü yumulu vaxtdan xəbərsiz' yazışma istəmir. Təkmilləşmiş, vaxtı bilən köməkçi gözləyir.
