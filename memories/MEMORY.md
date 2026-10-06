@@ -13,3 +13,5 @@ Fight Shorts (06.10): 25 klip kitabxana (4 dovuscu), 17 iri musiqi (Clash Defian
 5 Beyin (04.10): Klodi claude-sonnet-4-20250514→sonnet-5, Depi deepseek-chat→flash (ikisi retired idi). Video intro cixarildi (piksel). Conor yuklendi. Yalniz watermark qaldi.
 §
 User: "Mən işimi getdikcə peşəkar hala gətirməyə çalışıram" — wants discussion first, then action. Wants quality roadmap guidance (nəyi hansı sırada peşəkarlaşdıraq). Sharp eye for quality — rejected pixelated intro, boring music. Likes aggressive fight music (Clash Defiant type). Before any action, discuss (müzakirə) — never implement without user confirming.
+§
+Fight Shorts (08.10): 25 video kitabxana + 17 musiqui local. Story arc 3 hisse (STAGE/BATTLE/CHAMPION) yazi overlay. Ses cixarildi (robotik, Voice Lab lazim). Slo-mo yox (ML/GPU yox). Cron 1/gun 18:00 AZ 60-75s. YouTube VPS IP bot-blok → Dailymotion fallback.
