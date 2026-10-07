@@ -27,7 +27,14 @@
 
 ## Cron
 - Gündə 1 short, **18:00 AZ** (14:00 UTC)
+- Cümə: **Weekly Best Of compilation** (14:00 UTC → YouTube)
 - auto_shorts.py → shorts_editor ilə 60-75 san video
+- Hər short avtomatik `/root/fight_shorts_weekly/<həftə>/` qovluğuna saxlanılır
+
++ ## 5 Beyin Bot Düzəlişi (07.10)
++ - **Dil:** Prompta "YALNIZ Azərbaycan dilində" əlavə olundu
++ - **Şəkil oxuma:** handle_photo indi şəkli base64-ə çevirib OpenAI/Gemini/Claude vision API-yə göndərir
++ - **Conflict:** Köhnə instance öldürüldü, təmiz qaldı
 
 ## Döyüşçü Sırası
 1. ✅ Mike Tyson
