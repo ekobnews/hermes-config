@@ -2,8 +2,6 @@ User is Azerbaijani speaker, wants direct no-filler Azərbaycan dilində respons
 §
 User's triple-save pattern: hər dəfə yeni layihə/sistem/config haqqında məlumat verəndə, onu 1) Hermes memory-ə, 2) Obsidian vault-a (qeydler/), 3) GitHub hermes-config reposuna qeyd et. Obsidian vault həm WSL-də (/mnt/c/...), həm də hermes-config/notes/ qovluğunda sinxron saxlanılır.
 §
-5 Beyin (VPS-2 77.42.37.230, Docker): Çati(GPT-4o), Gemi(Gemini-2.5flash), Depi(DeepSeek), Klodi(Claude). Meta-orchestrator. 8 upgrade. /root/5beyin-bot/.env gözləyir.
-§
 User səmimi, isti ünsiyyət gözləyir — "işləyirəm, nə deyirsən?" kimi soyuq qarşılama onu incitdi. Salamlaşanda sadəcə hal-əhval, əsla məşğul olduğunu bildirmə. İş haqqında danışanda birbaşa.
 §
 Post-merge hook (WSL): ~/hermes-config/.git/hooks/post-merge — hər git pull-da notes/→Obsidian rsync+.gitignore vault extras. VPS-də broken deyil.
@@ -16,6 +14,6 @@ User: "Mən işimi getdikcə peşəkar hala gətirməyə çalışıram" — want
 §
 Fight Shorts (08.10): 25 video kitabxana + 17 musiqui local. Story arc 3 hisse (STAGE/BATTLE/CHAMPION) yazi overlay. Ses cixarildi (robotik, Voice Lab lazim). Slo-mo yox (ML/GPU yox). Cron 1/gun 18:00 AZ 60-75s. YouTube VPS IP bot-blok → Dailymotion fallback.
 §
-07.10: Weekly Best Of compilation qura (cume 18:00 AZ). auto_shorts her shortu weekly qovluga saxlayir. Dil duzeldi (yalniz AZ). Sekil okuma (Gemi/GPT/Klodi vison) yeni duzelis ($5? img_data API-y). Memori 2200->10000.
-§
 User wants ritmik/aqressiv beat-heavy music (Hackbeat/Raving Energy style), NOT orchestral/epic. Hard gym/training beats. Musiqi problemi hele hell olunmayib (SoundCloud/Uppbeat/YouTube blok). 5 Beyin bot vison duzeldi (test gozlenir). Hәftәlik Best Of (cume 18:00 AZ) quruldu.
+§
+User approval flow (08.10): video once preview, after approval upload. Formula: Dailymotion fight clip + electronic/beat music (Zap Beat style) = best results. 5 Beyin: image reading vision API (Cati/Gemi/Klodi), dil prompt "YALNIZ Azerbaycan". Music: 24 electronic/beat tracks, old orkestral silindi. Time awareness: user wants me to know saat/gece/sabah.
