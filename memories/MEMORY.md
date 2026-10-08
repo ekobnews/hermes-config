@@ -17,3 +17,5 @@ User: "Mən işimi getdikcə peşəkar hala gətirməyə çalışıram" — want
 Fight Shorts (08.10): 25 video kitabxana + 17 musiqui local. Story arc 3 hisse (STAGE/BATTLE/CHAMPION) yazi overlay. Ses cixarildi (robotik, Voice Lab lazim). Slo-mo yox (ML/GPU yox). Cron 1/gun 18:00 AZ 60-75s. YouTube VPS IP bot-blok → Dailymotion fallback.
 §
 07.10: Weekly Best Of compilation qura (cume 18:00 AZ). auto_shorts her shortu weekly qovluga saxlayir. Dil duzeldi (yalniz AZ). Sekil okuma (Gemi/GPT/Klodi vison) yeni duzelis ($5? img_data API-y). Memori 2200->10000.
+§
+User wants ritmik/aqressiv beat-heavy music (Hackbeat/Raving Energy style), NOT orchestral/epic. Hard gym/training beats. Musiqi problemi hele hell olunmayib (SoundCloud/Uppbeat/YouTube blok). 5 Beyin bot vison duzeldi (test gozlenir). Hәftәlik Best Of (cume 18:00 AZ) quruldu.
