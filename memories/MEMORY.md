@@ -25,3 +25,5 @@ User wants NO Kevin MacLeod music ever (Zap Beat style only). ElevenLabs Music A
 Musiqi helli: ElevenLabs Music API (Starter $5/ay oturdu, artiq hec bir elave xerc yox). Kevin MacLeod silindi. Her short ucun orijinal AI musiqi yaranir - hec vaxt tekrarlanmir, claim yox. Pipeline auto_shorts.py-de yenilendi.
 §
 Cron: Mon-Fri 20:00 AZ short (must review first), Sat 20:00 AZ weekly stats, Sun rest. ElevenLabs Music API ucun musiqi (aqressiv elektron). Daima evvel senediy xidmetleri yoxla (ElevenLabs) yeni xerc teklif etmeden. Sade dildə izahat sevir.
+§
+Proxy: Decodo rezidensial (gate.decodo.com:10001, $4/GB PAYG, limit bitdi). 37 klip kitabxana. ElevenLabs Music API ses+musiqi. Kevin MacLeod tarix. Həftə ici Mon-Fri 20:00 AZ review+upload. Senbə 20:00 AZ heftelik analiz. Həftə sonu istirahət.
