@@ -9,3 +9,5 @@ Wants proactive professional direction — guidance not just execution. Rejects 
 Personality: persistent tester/reporter, monitors everything personally. Active late night. Follows through on agreed implementations. Has own professionally designed brand assets (logos, banners, videos).
 §
 Müzakirəsiz düzəliş etmə. Saatı yoxla (gecə/səhər fərqi). Video onay flow: göstər→yüklə. Zap Beat musiqi (elektron). Dailymotion + elektron = ən yaxşı.
+§
+User is a state employee (Pensiya təyinatı şöbə müdiri), 15.05.1979 (47). Doesn't enjoy his job — works for necessity, wants side income. Freely available weekday evenings + weekends. Deep love: boxing/MMA + news/tech + AI automation. Trusts me but expects honest mistake acknowledgment. Music: aggressive electronic/beat only (ElevenLabs Music API).

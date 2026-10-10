@@ -23,3 +23,5 @@ Video onay flow: goster, sonra yukle. Zap Beat musiqu stili. Dailymotion dovus c
 User wants NO Kevin MacLeod music ever (Zap Beat style only). ElevenLabs Music API available on existing $5/mo Starter plan — check existing paid services before suggesting new ones (lesson: suggested Suno AI before checking ElevenLabs, user corrected me).
 §
 Musiqi helli: ElevenLabs Music API (Starter $5/ay oturdu, artiq hec bir elave xerc yox). Kevin MacLeod silindi. Her short ucun orijinal AI musiqi yaranir - hec vaxt tekrarlanmir, claim yox. Pipeline auto_shorts.py-de yenilendi.
+§
+Cron: Mon-Fri 20:00 AZ short (must review first), Sat 20:00 AZ weekly stats, Sun rest. ElevenLabs Music API ucun musiqi (aqressiv elektron). Daima evvel senediy xidmetleri yoxla (ElevenLabs) yeni xerc teklif etmeden. Sade dildə izahat sevir.
