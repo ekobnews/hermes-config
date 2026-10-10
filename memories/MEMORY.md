@@ -19,3 +19,7 @@ User wants ritmik/aqressiv beat-heavy music (Hackbeat/Raving Energy style), NOT 
 User approval flow (08.10): video once preview, after approval upload. Formula: Dailymotion fight clip + electronic/beat music (Zap Beat style) = best results. 5 Beyin: image reading vision API (Cati/Gemi/Klodi), dil prompt "YALNIZ Azerbaycan". Music: 24 electronic/beat tracks, old orkestral silindi. Time awareness: user wants me to know saat/gece/sabah.
 §
 Video onay flow: goster, sonra yukle. Zap Beat musiqu stili. Dailymotion dovus clip + elektron musiqu = Elbrus cox beyendi (Ngannou).
+§
+User wants NO Kevin MacLeod music ever (Zap Beat style only). ElevenLabs Music API available on existing $5/mo Starter plan — check existing paid services before suggesting new ones (lesson: suggested Suno AI before checking ElevenLabs, user corrected me).
+§
+Musiqi helli: ElevenLabs Music API (Starter $5/ay oturdu, artiq hec bir elave xerc yox). Kevin MacLeod silindi. Her short ucun orijinal AI musiqi yaranir - hec vaxt tekrarlanmir, claim yox. Pipeline auto_shorts.py-de yenilendi.
