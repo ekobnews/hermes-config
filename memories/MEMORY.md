@@ -2,8 +2,6 @@ User is Azerbaijani speaker, wants direct no-filler Azərbaycan dilində respons
 §
 User's triple-save pattern: hər dəfə yeni layihə/sistem/config haqqında məlumat verəndə, onu 1) Hermes memory-ə, 2) Obsidian vault-a (qeydler/), 3) GitHub hermes-config reposuna qeyd et. Obsidian vault həm WSL-də (/mnt/c/...), həm də hermes-config/notes/ qovluğunda sinxron saxlanılır.
 §
-User səmimi, isti ünsiyyət gözləyir — "işləyirəm, nə deyirsən?" kimi soyuq qarşılama onu incitdi. Salamlaşanda sadəcə hal-əhval, əsla məşğul olduğunu bildirmə. İş haqqında danışanda birbaşa.
-§
 Post-merge hook (WSL): ~/hermes-config/.git/hooks/post-merge — hər git pull-da notes/→Obsidian rsync+.gitignore vault extras. VPS-də broken deyil.
 §
 Fight Shorts (06.10): 25 klip kitabxana (4 dovuscu), 17 iri musiqi (Clash Defiant stili). Story arc (3 hisse + yazi). Ses cixarildi (robotik). Slo-mo texire (ML/GPU lazim). Cron: 1/video/gun 18:00 AZ, kitabxana→Dailymotion fallback. YouTube VPS IP bot-blok.
@@ -27,3 +25,5 @@ Musiqi helli: ElevenLabs Music API (Starter $5/ay oturdu, artiq hec bir elave xe
 Cron: Mon-Fri 20:00 AZ short (must review first), Sat 20:00 AZ weekly stats, Sun rest. ElevenLabs Music API ucun musiqi (aqressiv elektron). Daima evvel senediy xidmetleri yoxla (ElevenLabs) yeni xerc teklif etmeden. Sade dildə izahat sevir.
 §
 Proxy: Decodo rezidensial (gate.decodo.com:10001, $4/GB PAYG, limit bitdi). 37 klip kitabxana. ElevenLabs Music API ses+musiqi. Kevin MacLeod tarix. Həftə ici Mon-Fri 20:00 AZ review+upload. Senbə 20:00 AZ heftelik analiz. Həftə sonu istirahət.
+§
+Elbrus 👊 emojisindən imtina etdi (08.10): Heç vaxt, heç bir yazının sonunda 👊, 😄, gülüş/əlcək emojisi qoyma. Defələrlə xəbərdarlıq edib, məyus olub. Bu, KESİN qaydadır.
