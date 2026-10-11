@@ -27,3 +27,5 @@ Cron: Mon-Fri 20:00 AZ short (must review first), Sat 20:00 AZ weekly stats, Sun
 Proxy: Decodo rezidensial (gate.decodo.com:10001, $4/GB PAYG, limit bitdi). 37 klip kitabxana. ElevenLabs Music API ses+musiqi. Kevin MacLeod tarix. Həftə ici Mon-Fri 20:00 AZ review+upload. Senbə 20:00 AZ heftelik analiz. Həftə sonu istirahət.
 §
 Elbrus 👊 emojisindən imtina etdi (08.10): Heç vaxt, heç bir yazının sonunda 👊, 😄, gülüş/əlcək emojisi qoyma. Defələrlə xəbərdarlıq edib, məyus olub. Bu, KESİN qaydadır.
+§
+OpenRouter balans: $9.73 (11.10.2026, user artirdi). $2 monitor cron qurulub. Vision provider yoxdur — "hermes setup" teleb edir.
