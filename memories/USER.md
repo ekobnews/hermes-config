@@ -5,3 +5,5 @@ Infra: VPS-1=95.217.157.137 (WhatsApp+ekob). VPS-2=77.42.37.230 (5Beyin+Hermes).
 Professional: əvvəl müzakirə (dedikdən sonra et). ElevenLabs $6. Pixabay. Fight Shorts (dairəvı loqo, banner). Risk-averse.
 §
 Personality: persistent tester/reporter, monitors everything personally. Active late night. Follows through on agreed implementations. Has own professionally designed brand assets (logos, banners, videos).
+§
+Process uzananda sebirsizlenir. Dəqiq qısa istiqamət istəyir — "çox uzandı" sözü narazılıq siqnalıdır. Technical steps: evvelceden sinaz et, sonra bir defe deqiq addim ver. Exploration istemir.

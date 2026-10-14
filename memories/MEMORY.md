@@ -29,3 +29,5 @@ Proxy: Decodo rezidensial (gate.decodo.com:10001, $4/GB PAYG, limit bitdi). 37 k
 Elbrus 👊 emojisindən imtina etdi (08.10): Heç vaxt, heç bir yazının sonunda 👊, 😄, gülüş/əlcək emojisi qoyma. Defələrlə xəbərdarlıq edib, məyus olub. Bu, KESİN qaydadır.
 §
 OpenRouter balans: $9.73 (11.10.2026, user artirdi). $2 monitor cron qurulub. Vision provider yoxdur — "hermes setup" teleb edir.
+§
+Vizual analiz: auxiliary.vision.provider=openrouter, model=google/gemini-2.5-flash (config.yaml). Coəxdis düzəldildi (hər şəkil xəta verirdi). YouTube OAuth: yeni Web client (ID: 977493157543-o328j3ipjj223533loa8h4p360b6vqad, Secret: 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). Playground redirect URI: https://developers.google.com/oauthplayground (without /oauth2). Köhnə token revoke olunub.
