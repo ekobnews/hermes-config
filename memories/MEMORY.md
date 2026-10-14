@@ -22,7 +22,7 @@ User wants NO Kevin MacLeod music ever (Zap Beat style only). ElevenLabs Music A
 §
 Musiqi helli: ElevenLabs Music API (Starter $5/ay oturdu, artiq hec bir elave xerc yox). Kevin MacLeod silindi. Her short ucun orijinal AI musiqi yaranir - hec vaxt tekrarlanmir, claim yox. Pipeline auto_shorts.py-de yenilendi.
 §
-Cron: Mon-Fri 20:00 AZ short (must review first), Sat 20:00 AZ weekly stats, Sun rest. ElevenLabs Music API ucun musiqi (aqressiv elektron). Daima evvel senediy xidmetleri yoxla (ElevenLabs) yeni xerc teklif etmeden. Sade dildə izahat sevir.
+Fight Shorts keyfiyyət (14.10): Yalnız vizual yoxlanmış (clip_verdicts.json, gemini) DöYÜŞ klipləri seçilir — müsahibə/trash talk klipi RƏDD. Montaj: rəng korreksiyası + Ken Burns zoom + loudnorm(-14LUFS) + fade in/out + yuv420p + faststart (Telegram səbəbi). ElevenLabs musiqi prompt: 145BPM 3 hissəli ark. YouTube OAuth: Web client 'Fight Shorts Web' (desktop işləməz, redirect_uri=developers.google.com/oauthplayground — /oauth2 DEYİL!).
 §
 Proxy: Decodo rezidensial (gate.decodo.com:10001, $4/GB PAYG, limit bitdi). 46 klip kitabxana (anderson-silva 4, canelo 8, conor 9, jon-jones 11, khabib 8, ngannou 6). ElevenLabs Music API ses+musiqi. Kevin MacLeod tarix. Həftə ici Mon-Fri 20:00 AZ review+upload. Senbə 20:00 AZ heftelik analiz. Həftə sonu istirahət. Video archive: /root/fight_shorts_review/. OAuth yenilendi (14.10): client Fight Shorts Web (Web application), refresh token taze. Scope: yalniz youtube.upload. Tyson Fury yuklendi Kr9ERoQGgXY. Vision: auxiliary.vision.provider=openrouter, model=gemini-2.5-flash. Video encode: pix_fmt yuv420p + movflags faststart.
 §
@@ -33,3 +33,5 @@ OpenRouter balans: $9.73 (11.10.2026, user artirdi). $2 monitor cron qurulub. Vi
 Vizual analiz: auxiliary.vision.provider=openrouter, model=google/gemini-2.5-flash (config.yaml). Coəxdis düzəldildi (hər şəkil xəta verirdi). YouTube OAuth: yeni Web client (ID: 977493157543-o328j3ipjj223533loa8h4p360b6vqad, Secret: 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). Playground redirect URI: https://developers.google.com/oauthplayground (without /oauth2). Köhnə token revoke olunub.
 §
 Video encoding: shorts videolar ucun mütləq pix_fmt yuv420p + movflags +faststart istifadə et. 4:4:4/yuv444p formatı Telegram Desktop-da acilmir (Video.Unsupported.Desktop). Həmçinin avtomatik video hazırlayanda hər günün faylını ayri saxla üstune yazma.
+§
+Daima əvvel şənədiy xidmətləri yoxla (ElevenLabs, ödənilən) yənixərc təklif etməzdən.
