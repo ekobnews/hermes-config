@@ -35,3 +35,5 @@ Vizual analiz: auxiliary.vision.provider=openrouter, model=google/gemini-2.5-fla
 Video encoding: shorts videolar ucun mütləq pix_fmt yuv420p + movflags +faststart istifadə et. 4:4:4/yuv444p formatı Telegram Desktop-da acilmir (Video.Unsupported.Desktop). Həmçinin avtomatik video hazırlayanda hər günün faylını ayri saxla üstune yazma.
 §
 Daima əvvel şənədiy xidmətləri yoxla (ElevenLabs, ödənilən) yənixərc təklif etməzdən.
+§
+Skill library yenilənməsi (15.10): youtube-shorts-production (ElevenLabs .env cron fix + slug parsing hatası) + humanizer (user-specific corrections: emoji ban, birbaşa üslub, sual qadağası, vaxt məlumatı, AZ dili). hər iki referans yeniləndi.
