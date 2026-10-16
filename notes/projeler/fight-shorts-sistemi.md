@@ -1,48 +1,54 @@
-# Fight Shorts — Sistem Quraşdırma (08.10.2026)
+# Fight Shorts — Sistem Sənədi (yenilənib: 16.10.2026)
 
 ## Kanala aid aktivlər
 - **Avatar:** Kanal şəkli — user əl ilə yükləyib
 - **Banner:** YouTube API ilə yükləndi
-- **Watermark:** Fight Shorts loqosu, sağ alt küncdə daimi
+- **Watermark:** Fight Shorts loqosu, sağ alt küncdə daimi (`/root/fight_shorts_assets/watermark_small.png`)
 - **İntro çıxarıldı** (piksel problem)
+- **Kanal:** FIGHT SHORTS — https://www.youtube.com/@fightshorts2026
 
 ## Video Kitabxana (`/root/fight_shorts_library/`)
-- 25 klip, 4 döyüşçü: Conor(6), Khabib(3), Jon Jones(10), Canelo(6)
-- auto_shorts.py əvvəl kitabxanaya baxır, tapmasa → YouTube (Dailymotion fallback)
-- YouTube VPS IP bot-blok — library daimi həll
+- **46+ klip, 10 döyüşçü** (proxy ilə YouTube 720p-dən yığıldı)
+- **`clip_verdicts.json`** — hər klipin vizual yoxlama nəticəsi (gemini-2.5-flash): "DÖYÜŞ" / "YOX"
+- auto_shorts.py **YALNIZ döyüş səhnəsi təsdiqlənmiş** kliplərdən seçir (müsahibə/trash talk RƏDD)
+- Seçim: təsdiqlənmişlər arasından ən böyük 1/3 → təsadüfi
 
-## Musiqi Kitabxana (`/root/fight_shorts_music/`)
-- **17 track** Kevin MacLeod (CC BY 4.0, claim-free, monetizasiya təhlükəsiz)
-- Ən kəskin: Clash Defiant, Aggressor, Stoneworld Battle, Darkest Child
-- Musiqi heç vaxt download olunmur — local
+## Musiqi — ElevenLabs Music API (Kevin MacLeod TAMAMEN ÇIXARILDI)
+- Hər short üçün **orijinal AI musiqi** generasiya olunur (təkrarsız, claim-free)
+- Prompt: 3-hissəli ark — gərgin intro → buildup → drop, 145 BPM, aqressiv elektronik
+- Müddət: **58 san** (video ilə sinxron)
+- Key: `/root/ekob_news/.env` → `ELEVENLABS_API_KEY` (cron-da da işləyir)
+- Fallback: `fight_shorts_music/` keşi (ElevenLabs fail olsa)
 
-## Süjet Xətti (shorts_editor.py)
-- Video 3 hissəyə bölünür: **THE STAGE IS SET** (16s, ağ yazı) → **THE BATTLE** (32s, qırmızı yazı) → **THE CHAMPION** (25s, sarı yazı)
-- Musiqi tədricən güclənir: 0.06 → 0.10 → 0.12
-- Watermark hər yerdə
+## Montaj (shorts_editor.py) — professional standart
+- Rəng korreksiyası: contrast 1.08, saturation 1.22, gamma 0.98
+- Ken Burns: yavaş zoom 1.0 → 1.06
+- Səs: loudnorm (-14 LUFS), fade in 1.2s / fade out 2s
+- Format: h264 + yuv420p + faststart (Telegram/mobil uyğunluq)
+- **Müddət: maks 58 san** ← COPYRIGHT QAYDASI (60+ san YouTube bloklayır!)
 
-## Çıxarılan xüsusiyyətlər
-- ❌ **Səs:** ElevenLabs səsi robotik idi, çıxarıldı. Voice Lab düzəldəndə qayıdacaq
-- ❌ **Slow-mo:** ML/GPU tələb edir (pose/impact detection). Gələcəkdə OpenCV ilə
+## YouTube OAuth (KRİTİK)
+- Client: **"Fight Shorts Web"** (Web application) — `977493157543-o328j3ipjj223533loa8h4p360b6vqad...`
+- **Desktop client işləmir** (redirect_uri_mismatch)
+- Redirect URI: `https://developers.google.com/oauthplayground` (sonunda `/oauth2` YOXUDUR!)
+- Scope: `https://www.googleapis.com/auth/youtube.upload` (yalnız yükləmə — silmə üçün `youtube` scope lazımdır)
+- Refresh token: OAuth Playground-dan (16.10 təzələndi)
 
-## Cron
-- Gündə 1 short, **18:00 AZ** (14:00 UTC)
-- Cümə: **Weekly Best Of compilation** (14:00 UTC → YouTube)
-- auto_shorts.py → shorts_editor ilə 60-75 san video
-- Hər short avtomatik `/root/fight_shorts_weekly/<həftə>/` qovluğuna saxlanılır
+## Cron (Hermes)
+- **Həftə içi (BE–CÜ) 20:00 AZ** — `auto_shorts.py --skip-upload` → video hazırlanır, sənə göstərilir → "ok" → yüklənir
+- **Cümə 14:00 UTC** — Weekly Best Of kompilasiya
+- **Şənbə 20:00 AZ** — Həftəlik icmal (baxış/like/abunə)
+- **Bazar** — istirahət
+- Hər günün videosu `/root/fight_shorts_review/GG-AA-YYYY_dovuscu.mp4` arxivində
 
-+ ## 5 Beyin Bot Düzəlişi (07.10)
-+ - **Dil:** Prompta "YALNIZ Azərbaycan dilində" əlavə olundu
-+ - **Şəkil oxuma:** handle_photo indi şəkli base64-ə çevirib OpenAI/Gemini/Claude vision API-yə göndərir
-+ - **Conflict:** Köhnə instance öldürüldü, təmiz qaldı
+## Yüklənmiş videolar (YouTube)
+- Tyson lj6blzyvoQ0 | Ali 7yDnLGCX_YI | Khabib Yi00EE8lnXI | Canelo pCrq7ZaHbZM
+- Tyson Fury Kr9ERoQGgXY (14.10) | Khabib 58s Vs_QY6Suuxo (16.10)
+- Bloklu/dublikat (silmək lazımdır, geniş icazəli token yox): hjn6UI_R0p4 (66s Khabib), WiEiKNyhabE (Conor dublikat)
 
-## Döyüşçü Sırası
-1. ✅ Mike Tyson
-2. ✅ Muhammad Ali
-3. ✅ Conor McGregor
-4. ✅ Khabib (yüklənib, Dailymotion)
-5. ⏳ Jon Jones — növbəti
-6. Canelo, Ngannou, Silva, Foreman, Fury
+## Döyüşçü Sırası (16.10)
+- done: conor-mcgregor, khabib, jon-jones, canelo, ngannou, foreman, tyson-fury
+- **Növbəti: anderson-silva** → sonra siyahı yenidən başlayır
 
 ## GitHub
-- `ekob-news-bot` repo: auto_shorts.py, shorts_editor.py, build_library.py, refresh_cookies.py, assets/, music/
+- `ekob-news-bot` repo: auto_shorts.py, shorts_editor.py, build_library.py, upload_video.py, weekly_best_of.py, check_balance.py, clip_verdicts.json
