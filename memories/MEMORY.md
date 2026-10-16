@@ -43,3 +43,5 @@ YouTube Shorts limit (15.10): Copyright bloku >60san. Khabib 66san bloklandi. Pi
 Khabib yuklendi 15.10 hjn6UI_R0p4 (copyright bloklandi, 66san). Conor dublikat WiEiKNyhabE (copy of 05.10 video). Schedule: anderson-silva next, sonra cycle restart. User: silmek meselesini boş ver.
 §
 Keyfiyyet (15.10 tesdiqlendi): contrast 1.08, saturation 1.22, Ken Burns zoom 1.06, loudnorm -14, fade in/out, musiqi prompt 145BPM 3 hisse (intro→buildup→drop). Clip secimi: gemini vizual yoxlama, yalniz DOYUS. User video and music quality-dan memnun (nehayet istediyim dereceye yaxinlasirsan).
+§
+Copyright qaydası (15.10): YouTube Shorts <60 san mecburi — 60+ san müəllif hüququ bloku gəlir (Khabib 66san bloklandı). Pipeline maks 58 san, musiqi də 58 san. Yüklənmiş bloklu videolar: hjn6UI_R0p4 (66san Khabib), WiEiKNyhabE (dublikat Conor). Silmək üçün geniş icazəli OAuth token lazımdır (youtube.upload scope silməni icazə vermir).
