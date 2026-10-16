@@ -37,3 +37,9 @@ Video encoding: shorts videolar ucun mütləq pix_fmt yuv420p + movflags +fastst
 Daima əvvel şənədiy xidmətləri yoxla (ElevenLabs, ödənilən) yənixərc təklif etməzdən.
 §
 Skill library yenilənməsi (15.10): youtube-shorts-production (ElevenLabs .env cron fix + slug parsing hatası) + humanizer (user-specific corrections: emoji ban, birbaşa üslub, sual qadağası, vaxt məlumatı, AZ dili). hər iki referans yeniləndi.
+§
+YouTube Shorts limit (15.10): Copyright bloku >60san. Khabib 66san bloklandi. Pipeline max 60san (tehlukesizlik 58san). Shorts-da copyrigt qorunan mezmun 60san-dan uzun ola bilmez.
+§
+Khabib yuklendi 15.10 hjn6UI_R0p4 (copyright bloklandi, 66san). Conor dublikat WiEiKNyhabE (copy of 05.10 video). Schedule: anderson-silva next, sonra cycle restart. User: silmek meselesini boş ver.
+§
+Keyfiyyet (15.10 tesdiqlendi): contrast 1.08, saturation 1.22, Ken Burns zoom 1.06, loudnorm -14, fade in/out, musiqi prompt 145BPM 3 hisse (intro→buildup→drop). Clip secimi: gemini vizual yoxlama, yalniz DOYUS. User video and music quality-dan memnun (nehayet istediyim dereceye yaxinlasirsan).
