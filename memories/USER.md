@@ -1,9 +1,9 @@
-Elbrus Bağrov, 15.05.1979 (47). DSMF pensiya şöb müd. SEVMİR işini, məcbur. Əlavə gəlir axtarır. Vaxt: axşam + hftsonu. Etibar: 'ən yaxşı köməkçim'. Davranış: əvvəl ödənilən xidmətləri yoxla, sonra xərc təklif et. Prosesi mənə etdirmə (qeydiyyat, endirmə). Müzakərəsiz düzəliş etmə. 'edek' deyənə gözlə. Saat vaxtına diqqət. Video: hazırla→göstər→'ok'→yüklə. Müzik: ElevenLabs AI, Zap Beat stili, Kevin MacLeod RƏDD. Rez prox Decodo $4/GB (37 klip). OpenRouter $2 limit monitor. Aİ video(Higgsfield) təxirə. GPT-6 bahalı, dəyməz.
+Elbrus Bağırov. EKOB NEWS (TG/FB/IG/IG Biz). GitHub: ekobnews (ebuabu79). Obsidian: C:\Users\ELBRUS\Documents\hermes-notes. Python urllib. Triple-save: memory+Obsidian+GH. Azərbaycanca, qısa, birbaşa, sualsız cavab. Səmimi qarşılama gözləyir — 'işləyirəm, nə deyirsən' kimi soyuq qarşılama onu əsəbləşdirir. Strukturlu izahat sevir.
 §
-Infra: VPS-1=95.217.157.137 (WhatsApp+ekob). VPS-2=77.42.37.230 (5Beyin+Hermes). Agent must do every task, no terminal steps for user.
+VPS-1 (95.217.157.137): WhatsApp bot (EANA, Bizim sinif), WhatsApp gateway. VPS-2 (77.42.37.230, crypto-bot): 5 Beyin Telegram bot, Hermes Agent 24/7. İKİNCİ VPS-Ə DİQQƏT: 5 Beyin layihəsi 77.42.37.230-dadır, 95.217.157.137-də yox. Səhv serverə bağlanma user-i əsəbiləşdirir.
 §
-Professional: əvvəl müzakirə (dedikdən sonra et). ElevenLabs $6. Pixabay. Fight Shorts (dairəvı loqo, banner). Risk-averse.
+Risk-averse with EKOB NEWS — prefers incremental fixes over rewrites. Has FB Business + IG Business pages. Won't share passwords.
 §
-Personality: persistent tester/reporter, monitors everything personally. Active late night. Follows through on agreed implementations. Has own professionally designed brand assets (logos, banners, videos).
+EKOB NEWS pipeline: Telegram → AI → TG + Buffer (FB, IG, TikTok). VPS-1 95.217.157.137, /root/ekob_news/ekob.py, systemctl service. BUFFER_TIKTOK_CHANNEL_ID=6aaeec9dea19ca0bde8caaee.
 §
-Process uzananda sebirsizlenir. Dəqiq qısa istiqamət istəyir — "çox uzandı" sözü narazılıq siqnalıdır. Technical steps: evvelceden sinaz et, sonra bir defe deqiq addim ver. Exploration istemir.
+Frustrated when asked to do terminal/VNC commands. Said "sən hər şeyi mənə etdirirsən, mən bunları tam edə bilmirəm" — wants agent to handle everything itself, only ask for help when truly stuck. Can't copy-paste from Hetzner VNC Console, struggles with pipe/redirect syntax, doesn't know technical terms like firewall.
