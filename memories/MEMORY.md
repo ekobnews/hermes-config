@@ -15,3 +15,5 @@ EKOB NEWS PWA PORTAL + gündəlik AI avatar videosu: emergent.sh ilə qurulur (h
 Post-merge hook: ~/hermes-config/.git/hooks/post-merge — hər git pull-da notes/ → Obsidian vault-a avtomatik rsync. .gitignore-ə vault extras əlavə olundu. Commit+push edildi.
 §
 User həm WSL, həm VPS agentlərini qarşılıqlı işlədir — fikirləri birimizdən o birinə göndərir, konsensus gözləyir. İki agentin razılaşdığı həllərə daha çox güvənir.
+§
+User yeni podkast YouTube kanalı planı (17.10): NotebookLM ilə AZ dilində duet audio hazırdır. Vizual: real foto/video (ilüstrasiya/animasiya yox), Pixabay pulsuz. Audio dalğa + sitat overlay stili qəbul edildi. Feedback: konkret, səmimi — 'tam bəyənmədim' deyib səbəbləri ilə (şəkil çox uzun, mövzu uyğunsuzluğu, audio qısa). Kanal adı hələ müəyyən deyil.
