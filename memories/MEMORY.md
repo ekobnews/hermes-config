@@ -15,3 +15,7 @@ EKOB NEWS PWA PORTAL + gündəlik AI avatar videosu: emergent.sh ilə qurulur (h
 Post-merge hook: ~/hermes-config/.git/hooks/post-merge — hər git pull-da notes/ → Obsidian vault-a avtomatik rsync. .gitignore-ə vault extras əlavə olundu. Commit+push edildi.
 §
 User həm WSL, həm VPS agentlərini qarşılıqlı işlədir — fikirləri birimizdən o birinə göndərir, konsensus gözləyir. İki agentin razılaşdığı həllərə daha çox güvənir.
+§
+/tmp is tmpfs (2GB RAM disk) — boş yer azdır, böyük fayllar /root/ altında işlənməlidir. Podkast video montajı: statik foto slayd işləmədi; tək fon videosu + audio dalğası + sitatlar professional variantdır. Pexels ID 38567308 — okean dalğası 4K 60fps, CC0, fon üçün ideal.
+§
+Yeni podkast kanalı ideyası: NotebookLM audio + Pexels fon videosu + ElevenLabs ambient musiqisi. Dreamina (AI video) pulsuz gündəlik kreditlə sınaq üçün maraqlıdır. Ayrıca YouTube kanalı açılacaq.
