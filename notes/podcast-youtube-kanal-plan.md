@@ -4,9 +4,11 @@
 **Status:** Plan mərhələsi
 
 ## Kanal
+- Ad: **EKOB STUDIO** (18.10.2026 qərara alındı)
+- Google hesabı: elbrusbagirov1979@gmail.com
 - EKOB NEWS-dan ayrı, yeni YouTube kanalı
-- Mövzu: psixologiya, beyin, münasibətlər, özünü kəşf
-- Dil: İngiliscə (kanal adı "EKOB Voice" istiqamətində)
+- Mövzu: psixologiya, beyin, münasibətlər, özünü kəşf — müxtəlif mövzulu podcastlar (daimi)
+- Dil: İngiliscə
 
 ## Workflow (test olunub)
 1. **NotebookLM** → duet podcast (mətn + audio)
@@ -26,5 +28,7 @@
 - Sekvensial prompt sistemi: hər addım bir prompt, nəticə gözlə, sonrakı prompt.
 
 ## Növbəti addımlar
-- YouTube kanalı açılışı
-- Kanal adının qərarı
+- ~~Kanal adının qərarı~~ → **EKOB STUDIO** ✅
+- Kanal açılışı: istifadəçi öz brauzerində — youtube.com sign in → studio.youtube.com → Create channel
+- Video yükləmə: `podcast_final_upload.mp4` (916 MB, CRF 28, 1080p, 25:13)
+- Transkript: input_audio.m4a-dan Whisper ilə (və ya NotebookLM mətni)
