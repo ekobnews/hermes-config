@@ -18,6 +18,6 @@ User həm WSL, həm VPS agentlərini qarşılıqlı işlədir — fikirləri bir
 §
 Podcast workflow: NotebookLM audio → cover → ElevenLabs bg music → video (ffmpeg) → YouTube. Wants step-by-step — one prompt at a time.
 §
-Elbrus yeni YouTube kanalı açmaq fikrindədir — podcast üçün. EKOB NEWS-dan ayrı kanal olacaq. NotebookLM podcast + Pexels video + ElevenLabs bg music → ffmpeg → video.
+YouTube kanalı EKOB STUDIO (elbrusbagirov1979@gmail.com ilə) — podcast üçün, EKOB NEWS-dan ayrı. NotebookLM podcast + Pexels video + ElevenLabs bg music → ffmpeg → video.
 §
 Video render: audio-dan qısa olmamalıdır. -t parametri ffprobe dəqiq dəyərindən (kəsilməmiş) istifadə et, yaxud -shortest əvəzinə a:duration=first ilə audio boyu get.
