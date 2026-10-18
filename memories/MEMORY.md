@@ -21,3 +21,5 @@ User gives step-by-step prompts one at a time — execute exactly what's asked, 
 Podcast workflow: NotebookLM audio → cover → ElevenLabs bg music → video (ffmpeg) → YouTube. Wants step-by-step — one prompt at a time.
 §
 Video feedback: didn't like missing bg music or 'NotebookLM' watermark on cover; wants clean/professional.
+§
+User requires sequential-prompt execution: "sənə promptlar yazdıqca o ardıcıllıqla get" — follow each prompt in exact order, don't improvise or jump ahead. Show result after each step and wait for next command.
