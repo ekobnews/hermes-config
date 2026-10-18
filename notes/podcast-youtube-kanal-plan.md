@@ -27,8 +27,16 @@
 - Pexels 4K video böyük fayldır, CRF optimallaşdırıla bilər.
 - Sekvensial prompt sistemi: hər addım bir prompt, nəticə gözlə, sonrakı prompt.
 
+## Status (18.10.2026 axşam)
+- Kanal **EKOB STUDIO** açıldı (istifadəçi tərəfindən)
+- Logo + baner hazırdı, istifadəçi yükləyir (fayllar: Downloads/EKOB_ready/)
+- Video: `podcast_final_upload.mp4` — 1.62 GB, CRF 33, 1080p, 25:13 ✅
+- Metadata hazır: `Downloads/EKOB_ready/video_metadata.txt` (başlıq + təsvir + etiketlər)
+- Mövzu: Münasibətlərdə beynimizin qurduğu tələlər (input_audio.m4a == Downloads/Münasibətlərdə_beynimizin_bizə_qurduğu_tələlər.m4a)
+- Transkript: faster-whisper (small, AZ) — işləyir
+
 ## Növbəti addımlar
 - ~~Kanal adının qərarı~~ → **EKOB STUDIO** ✅
-- Kanal açılışı: istifadəçi öz brauzerində — youtube.com sign in → studio.youtube.com → Create channel
-- Video yükləmə: `podcast_final_upload.mp4` (916 MB, CRF 28, 1080p, 25:13)
-- Transkript: input_audio.m4a-dan Whisper ilə (və ya NotebookLM mətni)
+- ~~Kanal açılışı~~ ✅ (studio.youtube.com → create channel)
+- Video yükləmə: istifadəçi upload edir (thumbnail.png seçilməli)
+- Transkript: transcript.txt + transcript.vtt → description/captions
