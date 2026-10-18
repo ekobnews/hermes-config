@@ -16,10 +16,6 @@ Post-merge hook (~/hermes-config/.git/hooks/post-merge): git pull → Obsidian r
 §
 User həm WSL, həm VPS agentlərini qarşılıqlı işlədir — fikirləri birimizdən o birinə göndərir, konsensus gözləyir. İki agentin razılaşdığı həllərə daha çox güvənir.
 §
-User gives step-by-step prompts one at a time — execute exactly what's asked, nothing extra. No jumping ahead, no commentary beyond one-line confirmation. If he says 'heç nə etmə, promptları ardıcıllıqla atıram', wait for each next prompt.
-§
 Podcast workflow: NotebookLM audio → cover → ElevenLabs bg music → video (ffmpeg) → YouTube. Wants step-by-step — one prompt at a time.
 §
-Video feedback: didn't like missing bg music or 'NotebookLM' watermark on cover; wants clean/professional.
-§
-User requires sequential-prompt execution: "sənə promptlar yazdıqca o ardıcıllıqla get" — follow each prompt in exact order, don't improvise or jump ahead. Show result after each step and wait for next command.
+Elbrus yeni YouTube kanalı açmaq fikrindədir — podcast üçün. EKOB NEWS-dan ayrı kanal olacaq. NotebookLM podcast + Pexels video + ElevenLabs bg music → ffmpeg → video.
