@@ -16,8 +16,8 @@ Post-merge hook (~/hermes-config/.git/hooks/post-merge): git pull → Obsidian r
 §
 User həm WSL, həm VPS agentlərini qarşılıqlı işlədir — fikirləri birimizdən o birinə göndərir, konsensus gözləyir. İki agentin razılaşdığı həllərə daha çox güvənir.
 §
-Podcast workflow: NotebookLM audio → cover → ElevenLabs bg music → video (ffmpeg) → YouTube. Wants step-by-step — one prompt at a time.
-§
-YouTube kanalı EKOB STUDIO (elbrusbagirov1979@gmail.com ilə) — podcast üçün, EKOB NEWS-dan ayrı. NotebookLM podcast + Pexels video + ElevenLabs bg music → ffmpeg → video.
-§
 Video render: audio-dan qısa olmamalıdır. -t parametri ffprobe dəqiq dəyərindən (kəsilməmiş) istifadə et, yaxud -shortest əvəzinə a:duration=first ilə audio boyu get.
+§
+YouTube: EKOB STUDIO (elbrusbagirov1979@gmail.com), EKOB NEWS-dan ayrı. NotebookLM + Pexels + ElevenLabs → ffmpeg → video; step-by-step, bir prompt bir addım. Uploadlar YouTube Data API ilə tam avtomatik (bir dəfəlik OAuth consent; ~/podcast_work/upload_youtube.py). Transkript: faster-whisper (~/podcast_work/.venv, AZ dəqiqlik orta).
+§
+WSL env quirk: background process-lərdə ~/.hermes/bin PATH-də olmur (uv tapılmır) — tam yolla çağır. uv venv-lərində pip yoxdur, uv pip install istifadə et.
