@@ -4,14 +4,20 @@ WSL hermes-gateway disabled — VPS gateway tək polling edir. Session+memory sy
 §
 User's triple-save pattern: hər dəfə yeni layihə/sistem/config haqqında məlumat verəndə, onu 1) Hermes memory-ə, 2) Obsidian vault-a (qeydler/), 3) GitHub hermes-config reposuna qeyd et. Obsidian vault həm WSL-də (/mnt/c/...), həm də hermes-config/notes/ qovluğunda sinxron saxlanılır.
 §
-WhatsApp botları (VPS PM2 whatsapp-agent): EANA (Hermes persona, 4 ailə üzvü) + Bizim sinif (Həsən müəllim persona, 18 şagird). Hər ikisi agent.js-də hardcoded. 2.5-4s typing delay. Audio/video/şəkil/link aktiv.
+WhatsApp botları VPS-1 PM2-də: EANA (4 ailə) + Bizim sinif (18 şagird). 2.5-4s typing delay.
 §
-5 Beyin Telegram botu (VPS Docker): 4 AI (Çati-GPT4o, Gemi-Gemini2.5flash, Depi-DeepSeek, Klodi-Claude). Meta-orchestrator rolu bəndə. 8 təkmilləşdirmə: xərc, fallback, auto-memory, @mention, search, kontekst, auth, əmrlər. /root/5beyin-bot/. .env gözləyir.
+5 Beyin botu VPS-2 77.42.37.230 Docker-da: 4 AI+meta-orchestrator, /root/5beyin-bot/
 §
 User səmimi, isti ünsiyyət gözləyir — "işləyirəm, nə deyirsən?" kimi soyuq qarşılama onu incitdi. Salamlaşanda sadəcə hal-əhval, əsla məşğul olduğunu bildirmə. İş haqqında danışanda birbaşa.
 §
-EKOB NEWS PWA PORTAL + gündəlik AI avatar videosu: emergent.sh ilə qurulur (hazırlıq mərhələsi). Telegram inteqrasiyası + 8 kateqoriya + domain planı var. HeyGen seçildi (AZ dili təsdiqləndi), D-ID alternativ. Test: mətn → HeyGen → video, sonra cron ilə avtomatik.
+EKOB NEWS: Telegram→AI→TG+Buffer. ElevenLabs API VPS-1-də (/root/ekob_news/.env). HeyGen AZ video planı.
 §
-Post-merge hook: ~/hermes-config/.git/hooks/post-merge — hər git pull-da notes/ → Obsidian vault-a avtomatik rsync. .gitignore-ə vault extras əlavə olundu. Commit+push edildi.
+Post-merge hook (~/hermes-config/.git/hooks/post-merge): git pull → Obsidian rsync.
 §
 User həm WSL, həm VPS agentlərini qarşılıqlı işlədir — fikirləri birimizdən o birinə göndərir, konsensus gözləyir. İki agentin razılaşdığı həllərə daha çox güvənir.
+§
+User gives step-by-step prompts one at a time — execute exactly what's asked, nothing extra. No jumping ahead, no commentary beyond one-line confirmation. If he says 'heç nə etmə, promptları ardıcıllıqla atıram', wait for each next prompt.
+§
+Podcast workflow: NotebookLM audio → cover → ElevenLabs bg music → video (ffmpeg) → YouTube. Wants step-by-step — one prompt at a time.
+§
+Video feedback: didn't like missing bg music or 'NotebookLM' watermark on cover; wants clean/professional.
