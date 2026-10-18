@@ -29,8 +29,9 @@
 
 ## Status (18.10.2026 axşam)
 - Kanal **EKOB STUDIO** açıldı
-- Video **yükləndi**: https://youtu.be/taH2eTja3NM (unlisted) — başlıq + təsvir + etiketlər + AZ captions ✅
-- Custom thumbnail: kanal təsdiqi (telefon) tələb olunur — gözləyir
+- Video **yükləndi**: https://youtu.be/QRXYzmCVVLw (unlisted) — başlıq + təsvir + etiketlər + AZ captions + custom thumbnail ✅
+  (İlk cəhd taH2eTja3NM kanal təsdiqi olmadan 15 dəqiqə limitinə görə silinmişdi; kanal təsdiqləndi → yenidən yükləndi)
+- Custom thumbnail: ✅ (kanal təsdiqlənib)
 - Video: `podcast_final_upload.mp4` — 1.62 GB, CRF 33, 1080p, 25:13 ✅
 - Mövzu: Münasibətlərdə beynimizin qurduğu tələlər
 - OAuth qurulub: client_secret + youtube_token.json (avtomatik yükləmə gələcək üçün hazırdır)
