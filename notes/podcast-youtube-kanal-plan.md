@@ -28,12 +28,12 @@
 - Sekvensial prompt sistemi: hər addım bir prompt, nəticə gözlə, sonrakı prompt.
 
 ## Status (18.10.2026 axşam)
-- Kanal **EKOB STUDIO** açıldı (istifadəçi tərəfindən)
-- Logo + baner hazırdı, istifadəçi yükləyir (fayllar: Downloads/EKOB_ready/)
+- Kanal **EKOB STUDIO** açıldı
+- Video **yükləndi**: https://youtu.be/taH2eTja3NM (unlisted) — başlıq + təsvir + etiketlər + AZ captions ✅
+- Custom thumbnail: kanal təsdiqi (telefon) tələb olunur — gözləyir
 - Video: `podcast_final_upload.mp4` — 1.62 GB, CRF 33, 1080p, 25:13 ✅
-- Metadata hazır: `Downloads/EKOB_ready/video_metadata.txt` (başlıq + təsvir + etiketlər)
-- Mövzu: Münasibətlərdə beynimizin qurduğu tələlər (input_audio.m4a == Downloads/Münasibətlərdə_beynimizin_bizə_qurduğu_tələlər.m4a)
-- Transkript: faster-whisper (small, AZ) — işləyir
+- Mövzu: Münasibətlərdə beynimizin qurduğu tələlər
+- OAuth qurulub: client_secret + youtube_token.json (avtomatik yükləmə gələcək üçün hazırdır)
 
 ## Növbəti addımlar
 - ~~Kanal adının qərarı~~ → **EKOB STUDIO** ✅
