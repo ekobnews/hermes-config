@@ -8,7 +8,7 @@ WhatsApp botları VPS-1 PM2-də: EANA (4 ailə) + Bizim sinif (18 şagird). 2.5-
 §
 5 Beyin botu VPS-2 77.42.37.230 Docker-da: 4 AI+meta-orchestrator, /root/5beyin-bot/
 §
-User səmimi, isti ünsiyyət gözləyir — "işləyirəm, nə deyirsən?" kimi soyuq qarşılama onu incitdi. Salamlaşanda sadəcə hal-əhval, əsla məşğul olduğunu bildirmə. İş haqqında danışanda birbaşa.
+İş haqqında danışanda birbaşa. 'davam edək?' çox vaxt söhbəti davam etdirmək deməkdir — dərhal işə atılma, əvvəl hal-əhval soruş.
 §
 EKOB NEWS: Telegram→AI→TG+Buffer. ElevenLabs API VPS-1-də (/root/ekob_news/.env). HeyGen AZ video planı.
 §
