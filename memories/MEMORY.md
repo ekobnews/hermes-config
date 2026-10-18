@@ -18,6 +18,6 @@ User həm WSL, həm VPS agentlərini qarşılıqlı işlədir — fikirləri bir
 §
 Video render: audio-dan qısa olmamalıdır. -t parametri ffprobe dəqiq dəyərindən (kəsilməmiş) istifadə et, yaxud -shortest əvəzinə a:duration=first ilə audio boyu get.
 §
-YouTube: EKOB STUDIO (elbrusbagirov1979@gmail.com), EKOB NEWS-dan ayrı. NotebookLM + Pexels + ElevenLabs → ffmpeg → video; step-by-step, bir prompt bir addım. Uploadlar YouTube Data API ilə tam avtomatik (OAuth; ~/podcast_work/upload_youtube.py). Transkript: faster-whisper (~/podcast_work/.venv, AZ orta). İlk video: youtu.be/taH2eTja3NM (18.10, unlisted, public edilməli). Kanal təsdiqlənib — custom thumbnail işləyir.
+İlk video: youtu.be/QRXYzmCVVLw (18.10, unlisted, public edilməli)
 §
 WSL env quirk: background process-lərdə ~/.hermes/bin PATH-də olmur (uv tapılmır) — tam yolla çağır. uv venv-lərində pip yoxdur, uv pip install istifadə et.
