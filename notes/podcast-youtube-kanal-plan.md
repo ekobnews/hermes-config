@@ -29,7 +29,7 @@
 
 ## Status (18.10.2026 axşam)
 - Kanal **EKOB STUDIO** açıldı
-- Video **yükləndi**: https://youtu.be/QRXYzmCVVLw (unlisted) — başlıq + təsvir + etiketlər + AZ captions + custom thumbnail ✅
+- Video **yükləndi və PUBLIC edildi**: https://youtu.be/QRXYzmCVVLw — başlıq + təsvir + etiketlər + AZ captions + custom thumbnail ✅ (19.10, API ilə public)
   (İlk cəhd taH2eTja3NM kanal təsdiqi olmadan 15 dəqiqə limitinə görə silinmişdi; kanal təsdiqləndi → yenidən yükləndi)
 - Custom thumbnail: ✅ (kanal təsdiqlənib)
 - Video: `podcast_final_upload.mp4` — 1.62 GB, CRF 33, 1080p, 25:13 ✅
