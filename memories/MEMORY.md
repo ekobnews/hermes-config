@@ -21,3 +21,5 @@ Video render: audio-dan qısa olmamalıdır. -t parametri ffprobe dəqiq dəyər
 İlk video: youtu.be/QRXYzmCVVLw (18.10, unlisted, public edilməli)
 §
 WSL env quirk: background process-lərdə ~/.hermes/bin PATH-də olmur (uv tapılmır) — tam yolla çağır. uv venv-lərində pip yoxdur, uv pip install istifadə et.
+§
+EKOB STUDIO (18.10): Yeni YouTube podcast kanalı — https://youtube.com/@ekobstudio. NotebookLM duet audiolardan podcast videoları. Ilk video: 'Münasibətlərdə Beynimizin Qurduğu Tələlər' (QRXYzmCVVLw). Videolar WSL local Hermes-də hazırlanır (VPS CPU çox yavaş, GPU yox). Background musiqi: ElevenLabs Music API sakit ambient. Podcast video istehsalı artıq VPS-de deyil, local-da.
