@@ -23,3 +23,9 @@ Video render: audio-dan qısa olmamalıdır. -t parametri ffprobe dəqiq dəyər
 WSL env quirk: background process-lərdə ~/.hermes/bin PATH-də olmur (uv tapılmır) — tam yolla çağır. uv venv-lərində pip yoxdur, uv pip install istifadə et.
 §
 EKOB STUDIO (18.10): Yeni YouTube podcast kanalı — https://youtube.com/@ekobstudio. NotebookLM duet audiolardan podcast videoları. Ilk video: 'Münasibətlərdə Beynimizin Qurduğu Tələlər' (QRXYzmCVVLw). Videolar WSL local Hermes-də hazırlanır (VPS CPU çox yavaş, GPU yox). Background musiqi: ElevenLabs Music API sakit ambient. Podcast video istehsalı artıq VPS-de deyil, local-da.
+§
+Podcast video istehsali (18.10): VPS GPU-suz çox yavaş — 25 dəq video saatlarla cəkdi, user məyus oldu. Bundan sonra ağır video işləri LOCAL Hermes (WSL, notebook GPU) ilə görülür. VPS-də təkrarlanan video uğursuzluqda dayanıb alternativa təklif etməli (CapCut/WSL), saatlarla donmə.
+§
+User kanal adları üçün: sırf Azərbaycan hərfləri (ə/ğ/ı/ö/ş/ü) olan ad istəmir — beynəlxalq hərflərdə ad seçir (məs: 'EKOB STUDIO'). User hər dəfə yeni xəbəri bölüşür vasitəsi ilə məlumatlı qalmağı istəyir; eyni cavabı təkrar vermək onu qıcıqlandırır ('eynі suala nə qədər cavab verdin').
+§
+Dreamina (capcut.com) — ByteDance AI video/image generator. User qeydiyyatdan keçib, pulsuz gündəlik 120 kredit. Seedance 2.5 (30 san video), Seedream (şəkil). Gələcəkdə podcast fonu/döyüş klipləri üçün potensial alət. Epidemic Sound abunəsiz işləmir, Pixabay music API 404 — musiqi ElevenLabs.
