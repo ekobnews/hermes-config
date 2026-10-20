@@ -37,3 +37,7 @@ Dreamina (ByteDance): pulsuz gündəlik 120 kredit, Seedance 2.5 ilə 30 san AI 
 Spotify monetizasiya (20.10): Azərbaycan hələ Partner Program-a daxil DEYIL. Şərt: 3 epizod, 2000 saat/ay, 1000 dinləyici/ay. Məncə YouTube-a fokuslanmaq daha doğru (Azərbaycan üçün maneə yox).
 §
 User isteyir ki, VIDEO STATISTIKASI/TRENDLERI (baxış, like, klip seçimi, saatlar) analiz edib ÖZÜM nəticə çıxarım və onunla müzakirə edim — o soruşmadan. Mütləq fikir veriləsi meyil: Muhammad Ali 435 baxış (qalanlardan 15x çox) → tanınmış döyüşçülər daha çox baxış gətirir. Kitabxanaya qlobal ulduzları (Ali, Tyson, McGregor, Canelo) üstün tutmaq lazımdır.
+§
+YouTube saxta aktivlik (view/like/hesab) USER BESLE RƏDD etdi — özü də razılaşdı ki, real yolla böyüyək. Sabah plan: SEO başlıq/etiket, Instagram/Facebook paylaşım, doğru saat, güclü ilk 5 saniyə. User bu tövsiyələri tətbiq etmək istəyir (21.10).
+§
+Azərbaycan dil qaydaları: 'Yaxşı gecə' DEYİL, 'Gecən xeyirə qalsın' deyilir, qarşılığı 'Xeyirə qarşı'. İşə getmə mövzusunda 'Sağlıq olsun' cavabı. Bu ifadələri işlətməliyəm.
