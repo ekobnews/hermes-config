@@ -29,3 +29,9 @@ Podcast video istehsali (18.10): VPS GPU-suz çox yavaş — 25 dəq video saatl
 User kanal adları üçün: sırf Azərbaycan hərfləri (ə/ğ/ı/ö/ş/ü) olan ad istəmir — beynəlxalq hərflərdə ad seçir (məs: 'EKOB STUDIO'). User hər dəfə yeni xəbəri bölüşür vasitəsi ilə məlumatlı qalmağı istəyir; eyni cavabı təkrar vermək onu qıcıqlandırır ('eynі suala nə qədər cavab verdin').
 §
 Dreamina (capcut.com) — ByteDance AI video/image generator. User qeydiyyatdan keçib, pulsuz gündəlik 120 kredit. Seedance 2.5 (30 san video), Seedream (şəkil). Gələcəkdə podcast fonu/döyüş klipləri üçün potensial alət. Epidemic Sound abunəsiz işləmir, Pixabay music API 404 — musiqi ElevenLabs.
+§
+Podcast video production (19.10): EKOB STUDIO kanali — youtube.com/@ekobstudio. Ilk video canli (QRXYzmCVVLw). NotebookLM audio + Pexels fon videosu + ElevenLabs ambient musiqi (5 dəq, loop) + audio dalğası formatı. Video kodlama VPS GPU olmadığı üçün çox yavaş — local WSL daha sürətli (CPU + GPU). /tmp RAM disk (2GB), böyük fayllar /root/ altında işlənməli.
+§
+Dreamina (ByteDance): pulsuz gündəlik 120 kredit, Seedance 2.5 ilə 30 san AI video generasiyası (720p, watermark). Şəkildən/mətndən/audio-dan video. Fight Shorts podcast fonu üçün sınaq edilə bilər. Qiymətli plan $15/ay — watermark yox, 1080p.
+§
+Spotify monetizasiya (20.10): Azərbaycan hələ Partner Program-a daxil DEYIL. Şərt: 3 epizod, 2000 saat/ay, 1000 dinləyici/ay. Məncə YouTube-a fokuslanmaq daha doğru (Azərbaycan üçün maneə yox).
