@@ -35,3 +35,5 @@ Podcast video production (19.10): EKOB STUDIO kanali — youtube.com/@ekobstudio
 Dreamina (ByteDance): pulsuz gündəlik 120 kredit, Seedance 2.5 ilə 30 san AI video generasiyası (720p, watermark). Şəkildən/mətndən/audio-dan video. Fight Shorts podcast fonu üçün sınaq edilə bilər. Qiymətli plan $15/ay — watermark yox, 1080p.
 §
 Spotify monetizasiya (20.10): Azərbaycan hələ Partner Program-a daxil DEYIL. Şərt: 3 epizod, 2000 saat/ay, 1000 dinləyici/ay. Məncə YouTube-a fokuslanmaq daha doğru (Azərbaycan üçün maneə yox).
+§
+User isteyir ki, VIDEO STATISTIKASI/TRENDLERI (baxış, like, klip seçimi, saatlar) analiz edib ÖZÜM nəticə çıxarım və onunla müzakirə edim — o soruşmadan. Mütləq fikir veriləsi meyil: Muhammad Ali 435 baxış (qalanlardan 15x çox) → tanınmış döyüşçülər daha çox baxış gətirir. Kitabxanaya qlobal ulduzları (Ali, Tyson, McGregor, Canelo) üstün tutmaq lazımdır.
