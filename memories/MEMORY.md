@@ -41,3 +41,7 @@ User isteyir ki, VIDEO STATISTIKASI/TRENDLERI (baxış, like, klip seçimi, saat
 YouTube saxta aktivlik (view/like/hesab) USER BESLE RƏDD etdi — özü də razılaşdı ki, real yolla böyüyək. Sabah plan: SEO başlıq/etiket, Instagram/Facebook paylaşım, doğru saat, güclü ilk 5 saniyə. User bu tövsiyələri tətbiq etmək istəyir (21.10).
 §
 Azərbaycan dil qaydaları: 'Yaxşı gecə' DEYİL, 'Gecən xeyirə qalsın' deyilir, qarşılığı 'Xeyirə qarşı'. İşə getmə mövzusunda 'Sağlıq olsun' cavabı. Bu ifadələri işlətməliyəm.
+§
+YouTube kanal strategiyasi (21.10): Yalniz ULDUIZ dovusculer (Ali, Tyson, Conor, Khabib, Jones, Canelo, Ngannou). Orta taninanlar (Anderson Silva, Foreman, Fury) siyahidan cixarildi. Saxta aktivlik/baxis qetiyyen YOX. Legitim boyume: SEO basliq/etiket, Instagram/FB paylasim, dogru saat, guclu ilk 5 saniye.
+§
+Video klip temini (21.10): VPS YouTube bot-blok. User ev kompüterinden/telefonundan özü klip endirib mənə atır (uguu.se linki). Men vizual yoxlayib kitabxanaya elave edirəm. Proxy/evez pulu cüzdanına ehtiyac qalmadi.
