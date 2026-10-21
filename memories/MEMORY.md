@@ -45,3 +45,5 @@ Azərbaycan dil qaydaları: 'Yaxşı gecə' DEYİL, 'Gecən xeyirə qalsın' dey
 YouTube kanal strategiyasi (21.10): Yalniz ULDUIZ dovusculer (Ali, Tyson, Conor, Khabib, Jones, Canelo, Ngannou). Orta taninanlar (Anderson Silva, Foreman, Fury) siyahidan cixarildi. Saxta aktivlik/baxis qetiyyen YOX. Legitim boyume: SEO basliq/etiket, Instagram/FB paylasim, dogru saat, guclu ilk 5 saniye.
 §
 Video klip temini (21.10): VPS YouTube bot-blok. User ev kompüterinden/telefonundan özü klip endirib mənə atır (uguu.se linki). Men vizual yoxlayib kitabxanaya elave edirəm. Proxy/evez pulu cüzdanına ehtiyac qalmadi.
+§
+Buffer API token hər 30 gündən bir bitir (Sep20→Oct20). Yeni token: publish.buffer.com/settings/api → Re-generate. Yeni dəyər .env-de BUFFER_API_KEY. Hər ay ~20-də tokeni yeniləməyi xatırlat (növbəti: 20 noyabr 2026). Köhnə REST API (api.bufferapp.com) yeni "public API" tokeni qəbul etmir — GraphQL endpoint (api.buffer.com) ilə işləyir; ekob.py artıq GraphQL istifadə edir.
