@@ -21,9 +21,3 @@ Video render: audio-dan qısa olmamalıdır. -t parametri ffprobe dəqiq dəyər
 İlk video: youtu.be/QRXYzmCVVLw (18.10, unlisted, public edilməli)
 §
 WSL env quirk: background process-lərdə ~/.hermes/bin PATH-də olmur (uv tapılmır) — tam yolla çağır. uv venv-lərində pip yoxdur, uv pip install istifadə et.
-§
-YouTube OAuth token daima (Testing rejimi, 7 gun) olur — isdifadeci cox eseblesdi. YENI QAYDA: video montajini men edirem, amma YOU TUBE-A YUKLENMENI OZU EDIR (youtube.com/upload, elle). Men basliq+tesvir verirem. Token ile elesmirik.
-§
-Buffer tokeni her 30 gunde bir deyisir (Sep20 Oct20). Nov 20-de xatirlat. Yeni token: publish.buffer.com/settings/api → Re-generate. GraphQL endpoint (api.buffer.com), public API tokeni, REST API (api.bufferapp.com) depreceted.
-§
-WSL: terminal 1-2 deq sonra yoxa cixir — sebeb RAM limiti. Hell: .wslconfig fayli ile WSL-de memory limiti qoymaq (4GB) + swap 4GB.
