@@ -22,8 +22,8 @@ Video render: audio-dan qısa olmamalıdır. -t parametri ffprobe dəqiq dəyər
 §
 WSL env quirk: background process-lərdə ~/.hermes/bin PATH-də olmur (uv tapılmır) — tam yolla çağır. uv venv-lərində pip yoxdur, uv pip install istifadə et.
 §
-qa
+YouTube OAuth token daima (Testing rejimi, 7 gun) olur — isdifadeci cox eseblesdi. YENI QAYDA: video montajini men edirem, amma YOU TUBE-A YUKLENMENI OZU EDIR (youtube.com/upload, elle). Men basliq+tesvir verirem. Token ile elesmirik.
 §
-Yükləmə axını (21.10): YouTube OAuth tokeni Testing rejimində 7 günə ölür. Videoları user özü yükləyir (YouTube Studio-ya əl ilə). Mənim işim: məzmun hazırlamaq (montaj, musiqi, vizual yoxlama) + başlıq/təsvir hazırlamaq. User uguu.se/GDrive ilə mənbə faylları göndərir, mən emal edib hazır video kimi geri qaytarıram. Bu, VPS-dən YouTube blokunu keçməyin ən praktik yoludur.
+Buffer tokeni her 30 gunde bir deyisir (Sep20 Oct20). Nov 20-de xatirlat. Yeni token: publish.buffer.com/settings/api → Re-generate. GraphQL endpoint (api.buffer.com), public API tokeni, REST API (api.bufferapp.com) depreceted.
 §
-WSL Hermes çökür — RAM çatışmazlığı (mem verified, user agreed). Yükəliş EKOB STUDIO videoları üçün: VPS-də 25 dəq video kodlamaq saatlar çəkir (GPU yox). Bu işi local WSL notebook-da edir. Upload: YouTube Studio əl ilə (OAuth token ölür). Fayl ötürmə: uguu.se <20MB, Google Drive folder (hər ölçü) üstün. ElevenLabs Music API 429 system_busy — 3 retry 45/90/135san.
+WSL: terminal 1-2 deq sonra yoxa cixir — sebeb RAM limiti. Hell: .wslconfig fayli ile WSL-de memory limiti qoymaq (4GB) + swap 4GB.
