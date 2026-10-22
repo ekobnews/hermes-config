@@ -49,3 +49,5 @@ Video klip temini (21.10): VPS YouTube bot-blok. User ev kompüterinden/telefonu
 Buffer API token hər 30 gündən bir bitir (Sep20→Oct20). Yeni token: publish.buffer.com/settings/api → Re-generate. Yeni dəyər .env-de BUFFER_API_KEY. Hər ay ~20-də tokeni yeniləməyi xatırlat (növbəti: 20 noyabr 2026). Köhnə REST API (api.bufferapp.com) yeni "public API" tokeni qəbul etmir — GraphQL endpoint (api.buffer.com) ilə işləyir; ekob.py artıq GraphQL istifadə edir.
 §
 Yeni iş axını (21.10): Elbrus özü döyüş videolarını yükləyib mənə verir (YouTube VPS blokunu keçmək üçün). Mən onları kitabxanaya saxlayıram. Sabahdan hər gün 1 videonu montaj edib (döyüş klipi → vizual yoxlama → ElevenLabs musiqi → 55-58 san) hazır videonu ona göstərirəm — onaydan sonra yüklənir. YouTube OAuth token ölüdür (Testing rejimi — 7 gün ömrü), buna görə videoları user özü yükləyir.
+§
+User proactive analysis isteyi: Analiz etdiyim məlumatları (statistika, trend) onunla müzakirə etməli, O soruşmadan. 'Bu cür məsələləri mənsiz özün fikirləşib nəticə çıxartmalı və mənimlə müzakirə etməlisən' (20.10). Hər dəfəki səhvi təkrarlamaq onu məyus edir; eyni suala təkrar cavab verməkdən çəkin.
