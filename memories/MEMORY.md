@@ -21,13 +21,3 @@ Video render: audio-dan qısa olmamalıdır. -t parametri ffprobe dəqiq dəyər
 İlk video: youtu.be/QRXYzmCVVLw (18.10, unlisted, public edilməli)
 §
 WSL env quirk: background process-lərdə ~/.hermes/bin PATH-də olmur (uv tapılmır) — tam yolla çağır. uv venv-lərində pip yoxdur, uv pip install istifadə et.
-§
-WeTransfer download (22.10): API axini: short link -> prepare-download (POST api/v4/transfers/{id}/prepare-download {security_hash, intent:'entire_transfer'}) -> download (POST api/v4/transfers/{id}/download {security_hash, intent:'entire_transfer'}) -> direct_link. Python ilə işlədi.
-§
-EKOB STUDIO video istehsali (22.10): 52 movzu videosu (Dinlərins olmadigi dünya, 4K/1080p, 14.3 dəq) + 20:43 podcast audio + 22 dəq ElevenLabs ambient musiqi (fəlsəfi, 60 BPM) -> 20:43 final video. Uguu.se 100MB limiti (413 error) -> WeTransfer 2GB limiti. VPS CPU-da 20 dəq video transkodu 1-2 saat çəkir.
-§
-Səhif passiv olduqda 'Gecən xeyirə qalsın' deyilir, cavab 'Xeyirə qarşı'. 'Yaxşı gecə' düz deyil. İşə gedəndə 'Sağlıq olsun' deyilir.
-§
-User tokene/Yükləməyə etibarını itirib (22.10) — hər dəfə OAuth problemi. Fight Shorts upload artıq əl ilə (YouTube Studio) edilir. Mən video hazırlayıb user-ə göstərirəm -> user özü yükləyir.
-§
-EKOB STUDIO podcast videosu (20.10): audio + mövzu videolari (52 ədəd, təkrarlanmaqla) + fon musiqisi (ambient). Audio uzunluğuna uyğun kəsilməli (1243san). Videonun sonuna kimi təkrarlama. Video 20:43 dəq, 263MB (crf36 ilə 90MB).
