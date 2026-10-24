@@ -21,3 +21,5 @@ Video render: audio-dan qısa olmamalıdır. -t parametri ffprobe dəqiq dəyər
 İlk video: youtu.be/QRXYzmCVVLw (18.10, unlisted, public edilməli)
 §
 WSL env quirk: background process-lərdə ~/.hermes/bin PATH-də olmur (uv tapılmır) — tam yolla çağır. uv venv-lərində pip yoxdur, uv pip install istifadə et.
+§
+İkinci YouTube video: Dinlərin Olmadığı Dünya → youtu.be/znBIwVkSzVM (25.10.2026, public, EKOB STUDIO). API upload: client_secret + refresh token var, işləyir.
