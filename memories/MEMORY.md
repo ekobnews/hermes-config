@@ -12,14 +12,12 @@ WhatsApp botları VPS-1 PM2-də: EANA (4 ailə) + Bizim sinif (18 şagird). 2.5-
 §
 EKOB NEWS: Telegram→AI→TG+Buffer. ElevenLabs API VPS-1-də (/root/ekob_news/.env). HeyGen AZ video planı.
 §
-Post-merge hook (~/hermes-config/.git/hooks/post-merge): git pull → Obsidian rsync.
-§
 User həm WSL, həm VPS agentlərini qarşılıqlı işlədir — fikirləri birimizdən o birinə göndərir, konsensus gözləyir. İki agentin razılaşdığı həllərə daha çox güvənir.
 §
 Video render: audio-dan qısa olmamalıdır. -t parametri ffprobe dəqiq dəyərindən (kəsilməmiş) istifadə et, yaxud -shortest əvəzinə a:duration=first ilə audio boyu get.
 §
-EKOB STUDIO YT videoları: 1) youtu.be/QRXYzmCVVLw (18.10, hələ public deyil), 2) Dinlərin Olmadığı Dünya youtu.be/znBIwVkSzVM (25.10, public), 3) 5 Saniyənin Sirri (31.10, yüklənir). API upload: client_secret + refresh token var.
+EKOB STUDIO YT: 1) QRXYzmCVVLw (18.10), 2) znBIwVkSzVM (25.10), 3) HD6B5q0r-lk (31.10, '5 Saniyənin Sirri'). API upload: podcast_work/upload_youtube.py. Token invalid_grant → youtube_token.json sil, OAuth təzələ.
 §
 WSL env quirk: background process-lərdə ~/.hermes/bin PATH-də olmur (uv tapılmır) — tam yolla çağır. uv venv-lərində pip yoxdur, uv pip install istifadə et.
 §
-Token refresh-i invalid_grant xətası versə, youtube_token.json silib yenidən OAuth et (run_local_server).
+Podcast bg music: sakit piano (mixkit), 4% səs, loop stream_loop -1 + amix.
