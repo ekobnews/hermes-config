@@ -18,8 +18,8 @@ User həm WSL, həm VPS agentlərini qarşılıqlı işlədir — fikirləri bir
 §
 Video render: audio-dan qısa olmamalıdır. -t parametri ffprobe dəqiq dəyərindən (kəsilməmiş) istifadə et, yaxud -shortest əvəzinə a:duration=first ilə audio boyu get.
 §
-İlk video: youtu.be/QRXYzmCVVLw (18.10, unlisted, public edilməli)
+EKOB STUDIO YT videoları: 1) youtu.be/QRXYzmCVVLw (18.10, hələ public deyil), 2) Dinlərin Olmadığı Dünya youtu.be/znBIwVkSzVM (25.10, public), 3) 5 Saniyənin Sirri (31.10, yüklənir). API upload: client_secret + refresh token var.
 §
 WSL env quirk: background process-lərdə ~/.hermes/bin PATH-də olmur (uv tapılmır) — tam yolla çağır. uv venv-lərində pip yoxdur, uv pip install istifadə et.
 §
-İkinci YouTube video: Dinlərin Olmadığı Dünya → youtu.be/znBIwVkSzVM (25.10.2026, public, EKOB STUDIO). API upload: client_secret + refresh token var, işləyir.
+Token refresh-i invalid_grant xətası versə, youtube_token.json silib yenidən OAuth et (run_local_server).
