@@ -21,3 +21,5 @@ EKOB STUDIO YT: 1) QRXYzmCVVLw (18.10), 2) znBIwVkSzVM (25.10), 3) HD6B5q0r-lk (
 WSL env quirk: background process-lərdə ~/.hermes/bin PATH-də olmur (uv tapılmır) — tam yolla çağır. uv venv-lərində pip yoxdur, uv pip install istifadə et.
 §
 Podcast bg music: sakit piano (mixkit), 4% səs, loop stream_loop -1 + amix.
+§
+FIGHT SHORTS YT kanal ID: UC-GAoyXGXGjbn_vwdvdtmdA (@fightshorts2026). 31.10.2026 OAuth refresh token invalid_grant — youtube_auth.py ilə OAuth təzələmək lazımdır. Statistikanı public innertube API (youtubei/v1/browse) ilə də çəkmək olar: shorts grid-də view counts var.
