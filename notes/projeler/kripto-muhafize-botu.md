@@ -17,7 +17,8 @@
 
 ## Hesabat
 - Telegram: 08:00 / 16:00 / 22:00 AZ (bot özü göndərir)
-- Hermes monitor: 06:00 / 18:00 UTC (sağlamlıq yoxlaması)
+- Hermes monitor: hər gün 10:00 AZ (səssiz sağlamlıq yoxlaması, problem olsa xəbərdarlıq)
+- Hermes günlük hesabat: hər gün **22:00 AZ** (məcburi — qazanc/zərər, balans, son əməliyyatlar)
 
 ## Nəticə (keçmiş)
 - 72 əməliyyat, 37.5% uğur, -1.69 USDT (virtual, 2+ ay)
