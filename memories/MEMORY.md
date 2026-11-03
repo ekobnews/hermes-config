@@ -28,4 +28,4 @@ Crypto trading bot (fyuçers, Binance Futures): VPS-2 77.42.37.230-da işləyir.
 §
 Crypto trading bot discovered on VPS-2 (77.42.37.230): /root/futures-bot/bot.py (55KB, Python, CCXT + OpenAI + Telegram). Systemd service: futures-test.service (active since 24 Oct, PID 2623062, 422MB RAM). .env: TELEGRAM_BOT_TOKEN + OPENAI_API_KEY. state.json: 72 trade, -1.69 USDT net PNL, 37.5% win rate. Coins: ETH/BTC/SOL/BNB. User goal: integrate management into Hermes. User forgot where/how it was set up.
 §
-Kripto Muhafize botu VPS-2 (77.42.37.230) /root/futures-bot/bot.py — systemd futures-test.service, aktiv. SSH root parolu: +BagirovElbrus1979-. Strategiya: deterministik (AI-siz), BTC/ETH/SOL, 100 USDT marja, 2x leverage, short/long. Telegram-dan hesabat verir. Hermes monitor edir.
+Kripto Muhafize botu VPS-2 (77.42.37.230) /root/futures-bot/bot.py — systemd futures-test.service, aktiv. SSH: +BagirovElbrus1979-. Strategiya: deterministik (AI-siz), BTC/ETH/SOL, 100 USDT marja, 2x leverage, short/long. Telegram hesabat 08:00/16:00/22:00 AZ. Hermes monitor: 10:00 AZ sessiz yoxlama, 22:00 AZ mecburi hesabat.
