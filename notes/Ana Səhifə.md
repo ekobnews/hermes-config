@@ -11,6 +11,7 @@
 - [[projeler/hermes-kanban-cowork]] — Kanban + Cowork
 - [[projeler/fight-shorts-sistemi]] — YouTube Fight Shorts
 - [[projeler/5beyin-bot-duzelis-04102026]] — 04.10 5 Beyin təmiri
+- [[projeler/kripto-muhafize-botu]] — Kripto Muhafize Bot (sıx filter 04.11)
 - [[gundelik/08-10-2026]] — 08.10 yeniləmə
 - [[qeydler/EANA ailəsi - WhatsApp Bot]] — WhatsApp EANA botu
 - [[qeydler/Bizim sinif qrupu - WhatsApp Bot]] — WhatsApp sinif botu
@@ -22,3 +23,4 @@
 - [[gundelik/20-09-2026]] — 20 sentyabr
 - [[gundelik/27-09-2026]] — 27 sentyabr
 - [[gundelik/03-10-2026]] — 03 oktyabr
+- [[gundelik/04-11-2026]] — 04 noyabr (sıx trend filteri)
